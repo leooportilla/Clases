@@ -1,0 +1,37 @@
+En los casos donde es necesario realizar acciones en funcion de la respuesta a algunas "preguntas", debe determinarse la(s) 
+variable(s) involucrada(s) y/o el(los) valor(es) contra el(los) cual(es) se planteará la comparación, usando los operadores 
+relacionales que correspondan.
+
+
+A partir de las interrogantes ejemplificadas anteriormente, se pueden estructurar las expresiones lógicas a evaluar. Por 
+ejemplo, véanse las variables implicadas en las siguientes preguntas:
+
+
+- ¿ Eres mayor de edad ?, tiene implícito la evaluación de la variable "edad",
+- ¿ Está haciendo frío ?, tiene implícito la variable "temperatura", etc.
+
+Expresión en lenguaje natural Expresión lógica
+
+
+- ¿ Tengo dinero ? dinero > 0
+- ¿ Eres mayor de edad ? edad > 17 [o edad>=18]
+- ¿ Esta haciendo frío ? temperatura < 20
+- ¿ Es de noche ? luminosidad <= 1
+- ¿ Eres más alto que yo ? mi_estatura < tu_estatura
+
+En algunos casos, puede que no sea tan fácil traducir la interrogante de lenguaje natural a expresión lógica. Por ejemplo, 
+ante la pregunta: ¿ Está haciendo frío ? hay otra interrogante a resolver: ¿ A qué temperatura se considera que hay frío ?, 
+la respuesta puede ser relativa porque para algunas personas "frío" puede ser debajo de 16 grados, pero para otros puede ser 
+debajo de los 20 grados. La pregunta ¿ Es mayor de edad ? tendría implícito también la pregunta: ¿a que edad se es mayor de 
+edad?. En algunos países la mayoría de edad se cumple a los 21, en otros a los 18.
+
+
+Los siguientes son ejemplos de expresiones que se pueden llevar a expresiones lógicas:
+
+¿Se acabaron las entradas ? Entrada > 0
+¿Aprobé la materia ? Aprobacion => 80
+¿Mi hermano es más viejo que yo ? Miedad > HermanoEdad
+¿Eres de la tercera edad ? Personas > 75
+¿Estoy libre de deudas ? Deudas = 0
+¿Ya comenzó la película ?
+¿Este año es bisiesto?

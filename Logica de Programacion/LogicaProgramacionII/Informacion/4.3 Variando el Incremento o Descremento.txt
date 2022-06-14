@@ -1,0 +1,11 @@
+El incremento de la variable típicamente se hace de 1 en 1, pero hay ocasiones donde se necesita que varíe en otros valores 
+(2 en 2, 5 en 5, etc.). A continuación, se muestra un ejemplo de cómo cambiar el incremento de la variable que controla el 
+ciclo usando la opción "con paso":
+
+https://mega.nz/file/uwNnCB6K#BFxzOWSIUiU0gkG-g9-3dQI2tVY63_a2UiwaZ4Q9qoc
+
+Con esta variación es posible realizar ciclos que se ejecuten en decremento (Down-To), donde el valor de la variable que 
+controla el ciclo va desde un valor inicial mayor que el valor final. El decremento puede realizarse 1 en 1 (por omisión) 
+o con otros valores, por ejemplo 2 en 2:
+
+https://mega.nz/file/Psk3yRjS#-4_d4XHgbAB27uhZfF7ixchi62q864VFKdwCK4OjbZY

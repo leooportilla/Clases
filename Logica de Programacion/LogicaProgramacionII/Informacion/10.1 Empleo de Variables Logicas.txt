@@ -1,0 +1,19 @@
+Adicional a lo que se ha visto, las variables lógicas se pueden usar de varias maneras, por ejemplo, se puede asignar a una 
+variable el resultado de una expresión lógica para después evaluarla. Obsérvese el siguiente ejemplo:
+
+https://mega.nz/file/HxsQHDAC#ZKwHs-4M9UNFeQqTznaNut8C0Abaip7b67pzd8Rl1oY
+
+Para evaluar el valor de una variable lógica no es necesario compararla con el valor "Verdadero" o "Falso". Siempre y cuando 
+el identificador de la variable sea suficientemente significativo, se puede "evaluar" el valor de la variable colocando 
+únicamente su nombre, en la instrucción donde se está evaluando la condición, al hacerlo se evaluará si la variable es 
+verdadera.
+
+En los siguientes ejemplos se muestra el valor de verdad de varias expresiones lógicas donde se combinan los operadores lógicos:
+
+https://mega.nz/file/u4snTLRR#3qOLU83nPPLgnt2waMVEePTMxjk2oFa1TWf98quNNG8
+
+Como se puede evaluar una variable lógica sin comparar con verdadero o falso, se simplifica el ejemplo de comparación de los 
+números:
+
+https://mega.nz/file/bkdz1KbY#l6x4jzFx1JcHXhT5RoOG9w1URK7ph7TcFG5qKcsTwJM
+

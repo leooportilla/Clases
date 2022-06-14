@@ -1,0 +1,9 @@
+El establecimiento de una condición incorrecta en un ciclo podría hacer que éste nunca se rompiera, generando así, lo que se 
+llama en programación un "ciclo infinito", que virtualmente tardaría un tiempo infinito ejecutándose. Esto nunca debería ocurrir
+en situaciones tradicionales, puesto que en la generalidad de los casos los algoritmos deben ejecutarse en un tiempo finito.
+
+Aun así, existen situaciones en las cuales los algoritmos deben ejecutar un "ciclo infinito controlado", por ejemplo: los 
+sistemas que funcionan recibiendo "eventos" o mensajes del usuario de forma asíncrona (sistemas de chat, de ventanas, etc.). 
+Este tipo de ciclo se romperán por acciones externas al programa, por ej.: una acción realizada por el usuario del sistema.
+
+Este tipo de ciclo no serán abarcados en este curso.

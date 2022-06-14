@@ -1,0 +1,27 @@
+Las sentencias condicionales también se pueden anidar por el SINO. La ventaja de anidar sentencias condicionales así, es que 
+cuando una se cumple no hay por qué evaluar las condiciones que están debajo o que le siguen.
+
+En el presente flujograma el propósito es mostrar un mensaje dependiendo del número de día que sea ingresado, con base en la 
+premisa de que el número de día sea válido, es decir, que esté entre 1 y 7.
+
+https://mega.nz/file/bp122JwA#m20GGP3wVotELUBEVhS7J760AuHoiv2XGzncBdPn_gY
+
+El algoritmo textual del flujograma anterior se muestra a continuación...
+
+https://mega.nz/file/r8lFXIrZ#B3EpzKtjcUkRA9nuo8QpGOjlecHT0RQ8m3pVDQcIZBc
+
+La sintaxis general de las estructuras condicionales anidadas por el SINO es la siguiente:
+
+
+si  entonces  
+    sino 
+    si  entonces   
+        sino
+        si  entonces    
+           	sino 
+            si  entonces 
+
+            fin si		
+        fin si   	  
+	finsi	    
+fin si 

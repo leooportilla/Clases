@@ -1,0 +1,30 @@
+En la estructura selectiva de alternativa múltiple se evalúa una variable que puede tomar “n” valores distintos. Según sea el 
+valor de la variable en un instante dado, se ejecutarán las acciones asociadas a ese valor. En muchos lenguajes de programación
+se conoce a este tipo de selectiva como sentencias Case o Switch. En pseudocódigo la sentencia se estructura de la siguiente 
+manera:
+
+Segun variable
+valor1:  acciones 1
+    valor2:  acciones 2
+    [acciones por omisión ]
+fin segun
+
+En el siguiente ejemplo, dependiendo de los años de antigüedad de un vehículo se le pagará una prima a su dueño. Si el vehículo
+tiene 1 año de antigüedad se le paga 5%, si tiene 2 años se le paga 8%, si tiene 3 años 10%, si tiene 4 años 12%:
+
+https://mega.nz/file/qlM00IqS#Otps1b5YLO72wHqMz1_SDxND79tCl5uvuZyIUS065vc
+
+El siguiente ejemplo es el código y flujograma de un algoritmo que dependiendo de los años de antigüedad de un vehículo se le 
+pagará una prima a su dueño. Si el vehículo tiene 1 año de antigüedad se le paga 5%, si tiene 2 años se le paga 8%, si tiene 3 
+años 10%, si tiene 4 años 12%:
+
+https://mega.nz/file/W58QRJBR#OOesVC2lRCwHPPhj0Zvz7n2tckeX67GrFSeyPjPACp4
+
+Ahora vea el pseudocódigo del siguiente ejemplo: Se desea leer por teclado un número entre 1 y 10, con el objeto de visualizar 
+si el numero es par o impar.
+
+https://mega.nz/file/T89jCCTY#HsRKgCnYCiiBZ3jzWOtZ2xV7Q8ktN0vAGktw-RoldRw
+
+Apreciése en el flujograma del ejemplo anterior, el anidamiento del Según dentro del entonces de la primera selectica.
+
+https://mega.nz/file/j5ES2KJZ#GykXHrEJjZmvABHx74b9zzjGFIZTWI5XOLOpch5q1gw

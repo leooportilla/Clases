@@ -1,0 +1,18 @@
+En la programación, la negación es el operador que sirve para evaluar el valor contrario de una variable lógica o una condición.
+En consecuencia, se puede usar para evaluar:
+
+1. La posibilidad de que una variable lógica haya tomado un valor contrario al que tiene.
+2. El incumplimiento de una condición
+
+Para evaluar cualquiera de estos casos, bastará con anteponerle la palabra NO o algunos d los símbolos de la negación a la 
+variable o a la condición.
+
+En 2 selectivas del algoritmo mostrado, se están evaluando 2 variables lógicas, antecedidas por el operador de negación. 
+Nótese que el primer mensaje no se muestra porque esMayorDeEdad es verdadero.
+
+https://mega.nz/file/u9M1nLjI#Ubw1G3UJ3IaY3MogqdzXq-p1MUCadSlc_YySZ2rDc_Q
+
+Aquí se aprecian varios ejemplos de evaluación de expresiones lógicas donde también están implicados los operadores de negación,
+conjunción y disyunción:
+
+https://mega.nz/file/iscEzRKT#oPAhSKTLu7CGOW2J-wB5zYY82nB1aIou3T6lpddNLPo

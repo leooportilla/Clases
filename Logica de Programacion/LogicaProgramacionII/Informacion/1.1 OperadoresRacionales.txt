@@ -1,0 +1,61 @@
+Las expresiones lógicas en los algoritmos de computadoras deben expresarse en términos de variables comparándose con otras 
+variables o valores, lo cual permite determinar la "relación" que existe entre los elementos que se están comparando. Para 
+ello, se usan los Operadores Relacionales:
+
+< Menor que
+<= Menor o igual que
+> Mayor que
+>= Mayor o igual que
+= Igualdad [en C: ==]
+< > Diferente [en C: !=]
+
+Los elementos que se comparan deben ser del mismo tipo o de tipos de datos compatibles, ejemplo, no se puede comparar números 
+con alfanuméricos, caracteres con logicos, etc.
+
+En la tabla se aprecia la relación de complementareidad de los operadores.
+
+https://mega.nz/file/u1kxBYBC#n--5hZDQN8lfI2x-Aufi0ueEwlasVkHAODAvVo3RBgc
+
+En las expresiones lógicas, el operador relacional se coloca entre los 2 operandos (los elementos que se desean comparar entre
+ellos). Estos operandos pueden ser valores fijos o variables o combinación de ambos. Aquí se plantea un ejemplo con 2 operandos
+fijos:
+
+5 > 7
+El resultado de esta expresión siempre es falso, debido a que el número 5 no es mayor que el número 7. Otra forma de escribir
+esta expresión es la siguiente:
+
+7 < 5
+De igual forma, esta expresión es falsa. Es una expresión equivalente a la anterior.
+
+Cabe destacar que rara vez se comparan 2 valores fijos, debido a que el resultado siempre será el mismo.
+
+Para evaluar una expresión donde los operandos son expresiones aritméticas o matemáticas:
+
+1) Se resuelve el primer operando y se sustituye por su valor.
+2) Se resuelve el segundo operando y se sustituye por su valor.
+3) Se aplica el operador relacional y se devuelve el valor booleano correspondiente.
+
+Por ejemplo:
+1er operando ---------- 2do operando
+(( 5* 4) + 1 - (5 ^ 2)) < (2 – 1)
+-4 < 1
+
+La expresión resulta en Verdadero.
+
+Siempre que se tenga que, en algún operando hay alguna expresión, está debe ser resuelta antes de hacer la comparación (aplicar
+el operador relacional).
+
+Normalmente se utilizan variables en las expresiones lógicas. El resultado de la expresión dependerá del valor de las variables.
+Por ejemplo, si se tienen las variables x y y, asignándole el valor 2 a x y 4 a la variable y, ¿Cuáles serían los resultados de
+las siguientes expresiones lógicas?. Cada respuesta debe ser VERDADERO o FALSO, según corresponda:
+
+x > 10 : ______________________
+y < 0 : _______________________
+3 >= x : ______________________
+x = y : ________________________
+x <> y : _______________________
+y > x : ________________________
+x >= y :_______________________
+3*x > y : ______________________
+x+y < 5 : ______________________
+y-2 = x :_______________________

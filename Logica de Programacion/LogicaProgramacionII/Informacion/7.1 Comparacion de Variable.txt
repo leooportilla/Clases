@@ -1,0 +1,13 @@
+Un ejemplo típico de uso de condicionales anidadas por el SINO es el de comparar 2 variables "var1" y "var2" para saber si son 
+iguales o cual de las de 2 es la mayor.
+
+Las 3 posiblidades pudiera ser necesario manejar son:
+
+Que "var1" sea mayor que "var2"
+Que "var2" sea mayor que "var1"
+Que "var1" y "var2" sean iguales.
+
+El siguiente es un ejemplo donde se comparan 2 variables para determinar cual es la relación entre ellas y mostrar el mensaje 
+que aplica en cada caso:
+
+https://mega.nz/file/y8sC0DoT#SbggCzJ3HdAkkUHn4XzsNj5AWvpdGIlybsGQeHmwems

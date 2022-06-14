@@ -1,0 +1,19 @@
+La conjunción (Y) es un operador lógico que opera sobre dos valores de verdad, uno por cada una de dos proposiciones, 
+devolviendo el valor de verdad verdadero cuando ambas proposiciones son verdaderas, y falso en cualquier otro caso.
+
+Una conjunción es un enunciado con dos o más elementos requeridos. En PseInt el operador de conjunción puede ser la letra Y o 
+el símbolo &. La tabla de verdad de la conjunción es la siguiente:
+
+A     B     AyB
+V     V      V 
+V     F      F 
+F     V      F 
+F     F      F 
+
+Véase las condiciones a evaluar en el caso donde para entrar a un parque infantil el niño debe tener de 3 a 7 años.
+
+https://mega.nz/file/y5ciHBrY#-8tNuMRuMGC01qaPNeMpPTSzuz-yFsoQLF20_84GSHw
+
+Véase las condiciones que deben cumplirse para saber si un participante CADI aprobó y es mayor de edad:
+
+https://mega.nz/file/y1FQABqI#KNpDVGC3txfUTptydnkrBev24wieK-vUoYi5muk8-Sg

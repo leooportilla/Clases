@@ -1,0 +1,22 @@
+La disyunción (O) es un operador lógico que opera sobre dos valores de verdad, devolviendo el valor de verdad verdadero cuando 
+una de las proposiciones es verdadera, o cuando ambas lo son, y falso cuando ambas son falsas.
+
+Una disyunción es un enunciado con dos o más elementos optativos. En PseInt el operador de conjunción puede ser la letra O o 
+el | (Este símbolo se escribe combinando Alt+124). La tabla de verdad de la disyunción es la siguiente:
+
+A     B     AoB 
+V     V      V 
+V     F      V
+F     V      V
+F     F      F 
+
+Véase el ejemplo en el que el boleto para entrar un espectáculo es gratis para los niños menores de 8 años y los adultos mayores 
+de 65 años
+
+https://mega.nz/file/npMwQapS#u-tnlNVnE2gj0bId8KZYoQC7jGPGqYCJJYg46r9muKs
+
+Véase las condiciones que deben cumplirse para saber si un estudiante debe ir a prueba sustitutiva, al tener una nota máxima o 
+un promedio menor o igual a 10 (en la escala de 20):
+
+https://mega.nz/file/u1kTBC6Z#QJQesmca_Gz1yqOEEjJFlE1kLmJhWF_JqXOcfAfe0OU
+

@@ -1,0 +1,23 @@
+Una de las aplicaciones más comunes de la selectiva doble, es la de determinar si un número es positivo o negativo. Para esto 
+hay que determinar si un número es mayor que cero o menor que cero, partiendo de la premisa que el número es distinto de cero. 
+Véase el siguiente algoritmo...¿que pasará si se ingresa 0?
+
+https://mega.nz/file/74USwJqQ#ID5V32Q1li23SAleZpK88xPmosRxQH0RZP_G4N2HBqQ
+
+Mostraria que el numero es positivo de todas manera
+
+Otra aplicación muy frecuente de la selectiva doble es la de determinar si un número es par o impar, lo cual implica determinar
+si ese número es divisible entre 2 o no. Para esto se utiliza el operador "resto de la división", que en PseInt es el "%" o el 
+mod. Si el resto de la división de un número entre 2 es cero, significa que el número es par, de lo contrario, el número es 
+impar. El siguiente es el algoritmo para determinar si un número es par o impar:
+
+https://mega.nz/file/21cEBZ6Z#b5RRG2tCGPmJ3P2fomktlP2NxWpEbDsgf5JCq4DmeLs
+
+Otra aplicación de este tipo de estructura es combinarlas con funciones, cuando se necesita hacer comparaciones de cadenas 
+leídas por el teclado. En el ejemplo, se necesita determinar si un usuario introduce el valor "si"... En este caso, el usuario 
+puede escribir "SI", "Si", "sI" o "si", lo cual haría muy complicado hacer la comparación, debido a que se tendría que comparar
+con cada una de las posibilidades que el usuario puede introducir. Usando la función mayusculas o minusculas se simplifica 
+este problema, debido a que se convierte la cadena introducida por el usuario a un formato y luego se compara con el valor 
+convertido:
+
+https://mega.nz/file/OskEHIaZ#rrKa7238jwQwOctDsYwM0yj9nzyLbrkSXe9HSTkppws

@@ -1,0 +1,20 @@
+La negación (No) es un operador lógico que opera sobre un solo valor de verdad, devolviendo el valor de verdad falso cuando la 
+proposición es verdadera, y verdadero cuando la proposición es falsa. En PseInt el operador de negación puede ser:
+
+° La palabra NO.
+° La virgüilla: ~ (Este símbolo se escribe combinando Alt+126).
+° El signo de admiración de cierre: !
+
+La tabla de verdad de la negación es la siguiente:
+
+A      NoA 
+V       F
+F       V 
+
+En este ejemplo se aprecia lo que ocurre con la negación de la expresión lógica (edad>=20)
+
+https://mega.nz/file/ipkn3ZjK#-cz2dRw5zBsZSx0yh57TrOW-cfRK0SuJFI3MlSF1qY4
+
+Ahora véase el ejemplo de la negación de la expresión lógica (nota < 50)
+
+https://mega.nz/file/z4NFnLxY#DoQ-yV1gS1jBAJXDYJfk6fPYY34Sl6ynrV6tqmxXPlw

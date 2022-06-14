@@ -1,0 +1,34 @@
+Ya se ha comenzado a ver como incluir cambios en el control de flujo usando estructuras selectivas simples, de manera que en 
+esos algoritmos algunas instrucciones se ejecutan dependiendo de una condición. Sin embargo, no es el único tipo de instrucción
+de control que se puede usar, porque hay problemas cuya resolución amerita repetir pasos específicos. Para ello, deben usarse 
+sentencias o estructuras iterativas.
+
+Una ESTRUCTURA ITERATIVA es aquella instrucción que se coloca en el código para lograr que ciertas instrucciones se ejecuten 
+un número finito de veces. En estas estructuras también llamadas de ciclo o bucle, cada repetición se denomina ITERACIÓN y 
+coloquialmente, también es conocida como "vuelta" o "pasada".
+
+En la vida diaria, por ejemplo, existen situaciones que frecuentemente se resuelven realizando una determinada secuencia de 
+pasos que pueden repetirse varias veces, tales como:
+
+1. Las operaciones que realiza para llamar por teléfono, mientras no se logre la comunicación.
+2. El proceso que sigue para comer, mientras no se termine la comida.
+
+Otro ejemplo cotidiano donde se evidencia el uso de ciclos, es la corrección que hace un profesor de un examen de selección 
+simple aplicado a una sección, ya que para ello el profesor tendría que:
+
+1. Ver la respuesta de la primera pregunta y compararla con la respuesta correcta, anotar la nota en la pregunta. Este paso se va 
+a repetir tantas veces, como preguntas tenga el examen.
+2. Totalizar la nota del examen sumando la nota de cada pregunta
+3. Ver la cédula
+4. Cotejar el nombre del alumno,
+5. Asignar la nota final al examen
+6. Anotar la nota en lista de publicación de notas.
+7. Adicionalmente, este algoritmo lo debe repetir con cada examen presentado. ¿Dónde están los ciclos?
+
+Un ejemplo donde se use un ciclo usando una computadora, sería un caso en cual se desee conocer el promedio de notas obtenido 
+por c/u de los N alumnos de una sección, repitiendo las acciones de leer 3 notas, promediarlas y mostrar el promedio resultante.
+
+En los flujogramas con ciclos, se aprecia al menos una línea que sube y apunta a algún punto anterior en el diagrama, lo cual 
+denotará que el control del flujo retorna a ese punto y por lo tanto se repetirán las instrucciones a partir de él.
+
+https://mega.nz/file/X8MT1JzJ#nz0xrAAtNb0GdmBfhIGpDriD2AohWSEgJNl922h0DZM

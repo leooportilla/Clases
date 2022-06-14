@@ -1,0 +1,16 @@
+Una EXPRESIÓN LÓGICA es aquella que sólo puede tomar uno de 2 valores: verdadero o falso (nótese que dice "o", es decir, no 
+puede ser verdadero y falso a la vez). Dicho valor resulta de evaluar dicha expresión, que se infiere a partir de interrogantes
+explícitas o no, planteadas en los problemas. Los siguientes son ejemplos de cuestionamientos, que se pueden traducir a 
+expresiones lógicas:
+
+¿ Tengo dinero ?
+¿ Eres mayor de edad ?
+¿ Esta haciendo frío ?
+¿ Es de noche ?
+¿ Eres más alto que yo ?
+En los problemas que se van a intentar resolver con programas de computadora, habrá diversidad de circunstancias en las cuales
+los algoritmos deben hacer una cosa u otra según convenga, para lo cual se necesitará evaluar si algo es verdad o no, por 
+ejemplo, ¿hay espacio en el disco? o ¿hay conexion a Internet ? o ¿el programa se cerro debidamente ?.
+
+
+Por ello, es necesario identificar las expresiones lógicas que deberán estar involucradas en la resolución a dichos problemas.

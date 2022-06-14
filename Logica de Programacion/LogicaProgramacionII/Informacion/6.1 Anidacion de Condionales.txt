@@ -1,0 +1,3 @@
+En muchas situaciones, se necesita plantear una nueva estructura condicional, después de verificar que la evaluación de una 
+condición sea falsa o verdadera. En estos casos, se recomienda utilizar la anidación o el anidamiento de sentencias 
+condicionales, lo cual se refiere a la inclusión de estructuras selectivas dentro de otras.

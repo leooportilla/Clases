@@ -1,0 +1,18 @@
+Una Instruccion condicional o Estructura selectiva, es un tipo de instrucción que se utiliza para tomar decisiones lógicas y 
+manejar la posibilidad de proseguir la ejecución por un camino alternativo. Por lo cual, son sentencias de control de flujo, 
+porque permiten que el algoritmo realice alguna(s) instrucción(es) sólo bajo algunas circunstancias, así pues, éstas estarán 
+condicionadas.
+
+Se clasifican en 3 tipos:
+
+Simples
+Dobles
+De alternativa múltiple.
+
+Se puede apreciar en los 3 flujogramas de las selectivas, como posteriormente a la evaluación de una condición (expresión 
+lógica) el control de flujo del programa pudiera direccionarse a la ejecución de un grupo de acciones o a otro.
+
+Las estructuras condicionales deberán ser conformadas y utilizadas en una diversa gama de situaciones, destacando que es 
+determinante detectar cuál(es) instrucción(es) deben estar condicionadas y por cuál condición.
+
+https://mega.nz/file/D9NA3LCI#D6u1VbkggoamKbif87Pa6Cz3p5hckK68Chd8GWfRiQU

@@ -1,0 +1,43 @@
+Una "Expresión Lógica Compuesta" es una expresión donde se colocan 2 más condiciones simples unidas por operadores lógicos. En 
+muchas ocasiones, es necesario plantear este tipo de expresiones previo a la realización de algún procesamiento de información 
+por parte del computador. Por lo anterior, será necesario plantear en una misma expresión lógica la evaluación de más de una 
+condición y/o relación, para lo cual podría ser necesario combinar operadores relacionales y operadores lógicos.
+
+Cuando se evalúen expresiones lógicas compuestas, se evaluará primero el resultado de las expresiones lógicas simples y luego 
+se aplicarán los operadores lógicos, aplicando la regla de asociatividad por la izquierda. Esto sin dejar de lado, que siempre 
+se podrá dar prioridad a ciertas expresiones usando paréntesis.
+
+Apréciese los siguientes ejemplos de expresiónes lógicas compuestas usando el operador Y:
+
+1. Que el computador muestre la boleta de un alumno, si éste estudia la carrera de medicina y su promedio de calificaciones es 
+mayor de 70:
+	
+    (carrera = "medicina") Y (prom_nota > 70)
+	 
+2. Para entrar a un parque infantil el niño debe tener entre 2 y 8 años de edad:
+	
+    (edad >= 2) Y (edad <= 8) 
+
+3. Obsérvese la selectiva, para asignar un costo de entrada a un evento de 15000 Bs, sólo si una persona es menor de edad y es 
+estudiante:
+	
+    Si (edad < 18) Y (es_estudiante = verdadero) Entonces 
+		  costo_Entrada=15000
+	FinSi
+
+Los siguientes son ejemplos de expresiones lógicas compuestas usando el operador O:
+
+1. Que el computador verifique si se ingresó una A o una B:
+	
+    (letra_ingresada = "A") O (letra_ingresada = "B")  
+
+2.Q ue una persona tenga menos de 15 años o más de 30 años:
+
+	(edad < 15) O (edad > 30)
+
+3. Vase la selectiva en un caso donde están exentos de pagar la entrada a un espectáculo, los niños menores de 8 años y los 
+adultos mayores de 65 años:
+    
+    Si (edad < 8)  O  (edad > 65) Entonces 
+		Costo_Entrada=0
+    FinSi

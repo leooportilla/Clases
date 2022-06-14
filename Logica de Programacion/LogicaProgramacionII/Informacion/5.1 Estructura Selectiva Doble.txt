@@ -1,0 +1,47 @@
+La estructura selectiva doble es una condicional que evalúa una condición, en caso de ser Verdadera, se ejecutan el conjunto 
+de acciones asociadas al "entonces", de ser es Falsa se ejecuta el conjunto de acciones asociadas a la parte del "sino". En 
+el ejemplo de la temperatura, se puede hacer algo en caso de que no haya frío.
+
+Las 2 instrucciones de salida nunca podrán ejecutarse a la vez, o se ejecuta una o la otra.
+
+https://mega.nz/file/igURCKAY#TrfYENtQHQ8yEqwjml9D5SIEJWeUOVN80dSGbXhljfU
+
+La Estructura Selectiva Doble es la estructura condicional que maneja 2 posilidades. Presenta la forma:
+ 
+Si condicion Entonces 
+     Instrucciones V 
+Sino 
+    Instrucciones F
+
+Fin Si 
+
+En esta estructura condicional, si la condición es Verdadera, se ejecuta el conjunto de acciones asociadas al "entonces", si 
+el resultado es Falso no se ejecuta ninguna acción.
+
+En una selectiva doble con condiciones simples, siempre habrá una condición explícita y una implícita
+
+https://mega.nz/file/as1lVSqD#PDfaZNdSSLX_lcTZVbf0xh1AluCm2Ic_9gGlOQFkz6o
+
+En la siguiente imagen se destaca el impacto del cumplimiento condición expilícita o implícita
+
+https://mega.nz/file/y0kUwKRb#R179eisXkhAiX__0uSFSvnD023EwlQb16_eR_txgqiY
+
+El siguiente es un ejemplo completo de cómo usar una selectiva doble para calcular un monto de descuento, en función del monto 
+al que se le aplicará.
+
+El planteamiento base es: Dado un monto calcular el descuento considerando que si el monto ingresado es mayor de 30000, el 
+descuento a aplicar es 10% y si es igual o menor a dicho monto el descuento es 2%:
+
+https://mega.nz/file/qk0nVKyb#AMJczsJ93emRb7SeitjK9vgEr0dytBiiQ1T_F1JOk4g
+
+Es importante destacar que la instrucción selectiva doble no tiene una única forma de plantearse, debido a que se puede usar 
+una expresión lógica diferente, que también permita lograr el objetivo. Por ejemplo, si se necesita saber si alguien es mayor 
+o menor de edad para mostrar el mensaje que aplique, la selectiva se puede plantear de 2 formas equivalentes:
+
+https://mega.nz/file/igUTUKyQ#p9j2QNAO_E70SAjn1_iNJarhbnirfN18ZvsVAP0kfiA
+
+Nótese que lo único que cambió entre un algoritmo y otro, fue lo siguiente:
+
+
+° En el 2do algoritmo se colocó la condición contraria o complementaria, a la planteada en el 1ero.
+° La instrucción que está por el "entonces" en el 1ero se coloca en el "sino" del 2do y viceversa.

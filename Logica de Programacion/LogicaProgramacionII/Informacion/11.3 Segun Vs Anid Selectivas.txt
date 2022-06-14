@@ -1,0 +1,4 @@
+La estructura "Según" equivale a un anidamiento de condicionales por el Sino, pero lo contrario siempre es cierto. Véase este 
+ejemplo donde dependiendo del número que se ingrese se muestra el nombre del día de la semana o un mensaje de error:
+
+https://mega.nz/file/y1UFlRbS#_Ah8NXcc5hD98vheBBh3JYo3Ev_j8s1uT8tUanvLQhs

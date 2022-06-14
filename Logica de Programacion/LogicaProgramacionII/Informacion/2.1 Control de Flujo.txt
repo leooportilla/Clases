@@ -1,0 +1,29 @@
+Hasta ahora se han desarrollado algoritmos "secuenciales", donde todas las instrucciones que conforman un algoritmo son 
+ejecutadas siempre, sin importar lo que suceda con los datos durante la ejecución del programa.
+
+
+El orden de ejecución de las sentencias es lo que se conoce como "el flujo del programa", y se puede variar a voluntad 
+utilizando las sentencias de control de flujo, con las que es muy fácil alterarlo para adecuarlo a las necesidades del 
+programador. Esto es lo que hace potentes a los lenguajes de programación.
+
+
+Básicamente, existen tres tipos de sentencias: secuencial, condicional e iterativa, y utilizándolas apropiadamente se puede 
+escribir cualquier programa.
+
+
+Las sentencias secuenciales son las que se ejecutan una a continuación de la otra. Y son las que se han venido usando desde 
+el primer nivel del curso.
+
+
+Las sentencias condicionales e iterativas sirven para manejar la posibilidad de cambiar el control de flujo, y se verán a 
+partir de ahora. En este tipo de instrucciones es necesario utilizar expresiones lógicas.
+
+Al estudiar los flujogramas, se explicó que los rombos se utilizan para establecer puntos de decisión. Usando lenguaje 
+coloquial, dentro de ellos se anotaron interrogantes, y dependiendo de la respuesta a ellas se ejecutaban una(s) acción(es) 
+u otra(s). Esto se aprecia en el flujograma que delinea las acciones implicadas al encender una lámpara.
+
+
+Este ejemplo es relevante, porque permite ver el impacto de responder a interrogantes cruciales que pueden alterar el flujo 
+de ejecución. Computacionalmente, todas la interrogantes deberán ser traducidas a expresiones lógicas.
+
+https://mega.nz/file/yod2SbYB#OhXaFwppYBQAaQq9HyfUIJ9Sjh4uqBqlobv2fmq5nyg

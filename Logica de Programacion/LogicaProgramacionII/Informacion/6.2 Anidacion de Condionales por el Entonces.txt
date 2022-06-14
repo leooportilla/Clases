@@ -1,0 +1,26 @@
+Las sentencias condicionales se pueden anidar por el ENTONCES. La ventaja de anidar sentencias condicionales así, es que la 
+condicional que se plantee por el entonces solo se ejecutará al cumplirse la condición que acaba de ser evaluada.
+
+Obsérvese este flujograma, donde se implementa este tipo de anidamiento. A través de él, se verifica si un estudiante está 
+activo y es foráneo, para luego mostrar un mensaje:
+
+https://mega.nz/file/T59lmDDT#HyKiRz28X-qpwMHh56GwJoqQN_5ky5aiox0SFrLj9uI
+
+Obsérvese el algoritmo correspondiente al flujograma anterior, donde se aprecia que deben cumplirse las 2 condiciones evaluadas 
+(1 en cada selectiva) para que se muestre el mensaje:
+
+https://mega.nz/file/ugVwlTrJ#-tLTIi-yDfx_9mriKkmLX81cisL3192Y2I0yDjC_L_s
+
+La sintaxis general de las estructuras condicionales anidadas por el ENTONCES es la siguiente:
+
+si  entonces 
+	si  entonces  
+         si   entonces  
+  			si  entonces  
+              
+	         fin si 
+        fin si	
+    fin si 
+fin si
+
+Cada una de las estructuras selectivas simples también podrían tener un SINO.

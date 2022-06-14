@@ -1,0 +1,19 @@
+Otra aplicación del Anidamiento de Selectivas es, usarlo para hacer evaluaciones dentro de intervalos discontiguos. Esto se 
+refiere, a evaluar si un valor está en alguno de distintos intervalos que no están uno a continuación del otro. Así pues:
+
+1. Si se decidió evaluar los rangos de manera ascendente, el tope superior de un intervalo, no es el tope inferior del siguiente
+intervalo. Por ejemplo, si es necesario evaluar si una variable esta en el rango [10 y 20] o en el rango [25 y 40].
+
+2. Si se decidió evaluar los rangos de manera descendente, el tope inferior de un intervalo, no es el tope superior del 
+siguiente intervalo. Por ejemplo, si es necesario evaluar si una variable esta en el rango [40 y 25] o en el rango [20 y 10]
+
+Para lograr el objetivo de identificar dentro de cual rango está el valor a examinar, es necesario usa Expresiones Lógicas 
+Compuestas. Cabe destacar, que la comparación de la variables con los distintos rangos, no necesariamente deben estar ordenados
+a través de las selectivas anidadas. Esto se aprecia en el siguiente ejemplo.
+
+Si se necesita evaluar si un valor ingresado está en algunos de estos rangos discontiguos:
+° > 5 y < 10
+° < 0 y > -10
+° > 10 y <= 50
+
+https://mega.nz/file/b4EyQLQC#N-zdNytXslqbgV_V32QE9UtCSkXuk-mf7KVzxo1HDsE

@@ -1,0 +1,6 @@
+Los ciclos Up-To generamente se usan para procesar lotes de datos, y la cantidad de veces que se va a iterar se le puede 
+requerir al usuario para flexibilizar el algoritmo. De esta manera, el valor inicial debe ser 1 y el valor final dejaría 
+de ser un valor fijo y dependería de una entrada, lo cual mantiene la predecibilidad de esta estructura iterativa. Véase 
+el siguente ejemplo:
+
+https://mega.nz/file/6hthXDYb#3hznemBXQXSvgbfPEoviDEDPymuGYyzPUXKbinqGX9Y

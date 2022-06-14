@@ -1,0 +1,31 @@
+El resultado de la evaluación de expresiones lógicas con más de una condición se obtiene utilizando las tablas de verdad de 
+cada operador. Una Tabla de Verdad, o tabla de valores de verdad, es una tabla que despliega el valor de verdad de una 
+proposición (expresión lógica) compuesta, para cada combinación de valores de verdad que pueda tomar sus componentes.
+
+Considérese 2 proposiciones: A y B. Cada una puede tomar uno de dos valores de verdad: V (verdadero) o F (falso). Por lo tanto,
+los valores de verdad de A y B pueden combinarse de 4 maneras distintas:
+
+1. Ambas son verdaderas
+2. A es verdadera y B falsa
+3. A es falsa y B verdadera
+4. Ambas son falsas.
+
+A     B 
+V     V 
+V     F 
+F     V 
+F     F 
+
+En general, una tabla de verdad debe tener 2^n filas, donde n es la cantidad de proposiciones simples que están planteadas y 
+cada fila representa cada una de las combinaciones de valores de verdad de las proposiciones. Por ejemplo, la siguiente tabla 
+tiene 3 proposiciones simples (A, B y C) y por lo tanto debe tener 8 filas (2^3).
+
+A     B     C 
+V     V     V 
+V     V     F 
+V     F     V 
+V     F     F 
+F     V     V 
+F     V     F 
+F     F     V 
+F     F     F 

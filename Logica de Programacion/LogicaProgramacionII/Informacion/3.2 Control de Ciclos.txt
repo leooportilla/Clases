@@ -1,0 +1,16 @@
+Todo bucle implica la evaluación de una condición implícita o explícita, que es la que va a determinar si debe ejecutarse el 
+bucle y hasta cuándo. Por esto, una vez se identifique que es necesario usar ciclos, se deben responderse 2 preguntas:
+
+° ¿Cuál(es) instrucción(es) va(n) a repetirse en el ciclo?
+° ¿Qué condición va a mantener el ciclo en ejecución? o dicho de otra forma, ¿cómo se controlará el ciclo?.
+
+Esto último es muy importante, ya que dicha condición deberá evaluarse al principio o al final de la sentencia repetitiva 
+(depende de la sentencia iterativa que se emplee).
+
+Los ciclos pueden romperse (o controlarse) de 2 formas:
+
+1. Cuando se haya cumplido el número de iteraciones que se esperaba dar.
+2. Cuando ocurra algo específico, por ejemplo, que una variable tome un valor.
+
+Por lo anterior, cada problema puede ser muy particular. La forma de control del ciclo o de los ciclos (en caso de que haya 
+varios) debe determinarse al analizar el problema.

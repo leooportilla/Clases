@@ -1,0 +1,46 @@
+La estructura repetitiva DESDE o PARA (llamada "for" en la mayoría de los lenguajes de programación) es usada cuando se conoce 
+el número exacto de veces que se debe ejecutar el ciclo.
+
+Este ciclo se usa para llevar conteos, para lo cual usa una variable denominada variable índice, a la que se le asigna un 
+valor inicial (VI), se le indica el valor final (VF) y opcionalmente se le asocia la cantidad en la que variará.
+
+En cada iteración del bucle, la variable índice se incrementa o decrementa de manera automática, en un valor constante, lo 
+cual la constituye en una operación implícita. Dado lo anterior, el programador no se tiene que ocupar de actualizarla 
+colocando una instrucción dentro del bucle. Así, la ejecución del ciclo continuará hasta que se alcance o se sobrepase el 
+valor que se ha establecido como final, momento en el cual se rompe el ciclo.
+
+Por omisión, la variación que experimentará la variable índice es de 1 en 1.
+
+El flujograma general del ciclo “para” es el siguiente:
+
+https://mega.nz/file/Dk9THaTC#OPgLMzwZLrUe1N4PlMikGLxL9Xhl6aC9OxFKxMS6s1k
+
+En PseInt la estructura del ciclo "Para" es la siguiente:
+
+instrucciones iniciales
+
+Para variable=VI hasta VF con paso X 
+   accion_interna_1
+   accion_interna_2
+Fin para 
+
+instrucciones finales
+
+Donde VI es el valor inicial de la variable y VF es el valor final. La sección con paso es opcional, allí se establece en 
+cuantas unidades se va ir modificando la variable que controla el ciclo, si se omite, la variable se irá aumentando o 
+decrementando de 1 en 1 en cada iteración, según la relación entre VI y VF.
+
+Generalmente, este el ciclo PARA se usa para "contar" de forma progresiva (Up-To). Pero también se puede usar para hacerlo 
+de forma regresiva (Down-To):
+
+https://mega.nz/file/ioES1ATS#gSzIvOFfpIozeRDKboolg9RgrYJQdjOxa4xoupMykT8
+
+Por ejemplo, si quiere leer 20 números enteros y mostrar su doble. En este caso el valor inicial es 1 y el valor final es 20, 
+y la variable que controla el ciclo aumentara de 1 en 1 (comportamiento por omisión).
+
+https://mega.nz/file/P01BhRpT#3o4co2bDQCoxMkTrBeGUKpvwvXf--Dos5jpGb8uKIvk
+
+El valor inicial no necesariamente tiene que ser 1 o 0, puede ser cualquier valor, que generalmente es menor que el valor final.
+El siguiente es un ejemplo:
+
+https://mega.nz/file/r4MSDBQb#aGmBCtV4m9wIkzvfDyq0zIDpBvrsAZF7Ck7JVfxTZ7Q

@@ -1,0 +1,31 @@
+Otra aplicación típica de los "si" anidados es la evaluación de intervalos contiguos. Esto se refiere, a verificar si un valor 
+está en algún intervalo de varios intervalos que está uno a continuación del otro. Por ejemplo, dada la edad de una persona se
+necesita saber cuál es su estado:
+
+° Un bebé tiene una edad comprendida entre 0 y 2 años.
+° Un niño tiene edad comprendida entre 3 y 10 años
+° Un adolescente tiene edad entre 11 y 17 años
+° Un joven tiene edad entre 18 y 25 años
+° Un adulto tiene edad entre 26 y 54 años
+° Un adulto mayor tiene edad entre 55 y 74 años
+° Un anciano tiene edad mayor a 74 años
+
+En un caso como éste, una edad sólo puede estar en alguno de los intervalos definidos.
+
+El algoritmo textual que resuelve el problema planteado es el siguiente:
+
+https://mega.nz/file/Cg0GkYTA#M8CZfbv95EBqd5fxRymb33K5GD5vcPAU7IlJR-_-tGU
+
+Cuando se evalúan intervalos contiguos, deben tenerse presente las siguientes reglas:
+
+
+1. Siempre se evalúa 1 sola variable. Es decir, una sola variable es la que debe ser comparada con distintos valores a través de 
+distintas selectivas dobles.
+2. Se anidan las selectivas por el SINO y siempre se debe comparar con un solo valor en cada selectiva.
+Las condiciones que se deben colocar en cada selectiva deben plantearse en cierto orden:
+   ° Ascendente: ir comparando con los topes superiores de c/rango (Operador <=). En el caso que se acaba de ver: comenzar a 
+   evaluar la edad a ver si es igual o menor a 2.
+   ° Descendente: ir comparando con los topes inferiores de c/rango (Operador >=). En el caso que se acaba de ver: comenzar a
+   evaluar la edad a ver si es mayor o igual a 75.
+   Esta regla, naturalmente aplica al valor contra el cual se comparará la variable en cada nueva selectiva planteada por el 
+   SINO.

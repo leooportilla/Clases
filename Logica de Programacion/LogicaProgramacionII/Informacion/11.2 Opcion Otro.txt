@@ -1,0 +1,20 @@
+Esta estructura tiene una opción llamada "Otro:". Las acciones asociadas a esta opción se ejecutan cuando la expresión no toma 
+ninguno de los valores que aparecen antes. En algunos lenguajes de programación se le conoce como alternativa ‘Otherwise’, 
+‘Else’ o ‘Default’.
+
+El valor con el que se compara la variable es dependiente de los lenguajes de programación. Por lo general, se espera un tipo 
+de dato determinístico (se conoce con certeza), tales como los enteros y caracteres. En general, esos valores pueden ser fijos,
+pueden ser variables o un conjunto de valores determinístico (se usa la coma para separar un valor de otro) o incluso otra 
+condición (esto último no es implementable en PseInt).
+
+Esta estructura tiene una opción llamada "Otro:". Las acciones asociadas a esta opción se ejecutan cuando la expresión no toma 
+ninguno de los valores que aparecen antes. En algunos lenguajes de programación se le conoce como alternativa ‘Otherwise’, 
+‘Else’ o ‘Default’.
+
+
+El valor con el que se compara la variable es dependiente de los lenguajes de programación. Por lo general, se espera un tipo 
+de dato determinístico (se conoce con certeza), tales como los enteros y caracteres. En general, esos valores pueden ser fijos,
+pueden ser variables o un conjunto de valores determinístico (se usa la coma para separar un valor de otro) o incluso otra 
+condición (esto último no es implementable en PseInt).
+
+https://mega.nz/file/jhUQGYoK#Qjb7dtR9DcR1cqx0Xd6XzREbmlP9gqGMj-OM59AU9TU

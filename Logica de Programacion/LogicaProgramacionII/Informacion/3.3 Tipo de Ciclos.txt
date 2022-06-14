@@ -1,0 +1,14 @@
+Los lenguajes de programación tradicionalmente implementan 3 tipos de ciclos, los cuales se usan dependiendo de la situación y 
+del problema a resolver. Los tipos de ciclos son:
+
+1. PARA o DESDE (for): se utiliza generalmente cuando la cantidad de iteraciones es predecible (se conoce antes de iniciar el 
+ciclo).
+
+2. REPETIR (repeat, do...until, do..while): se utiliza cuando la cantidad de iteraciones es impredecible.
+
+3. MIENTRAS (while): también se utiliza cuando la cantidad de iteraciones es impredecible, pero a diferencia del anterior, se 
+utiliza en situaciones más particulares; es el caso, cuando es necesario manejar la posibilidad de que nunca se entre al ciclo.
+
+Cada tipo de ciclo se representa de manera diferente dentro de un flujograma:
+
+https://mega.nz/file/r4lQyJgA#UaQm1TE0jei1WIGFPiIFk08qvW28Bp-gQltZ7r8pfCA

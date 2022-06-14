@@ -1,0 +1,37 @@
+Si se tienen varias condiciones en una expresión lógica compuesta la evaluación de las mismas se hará aplicando la regla de 
+asociatividad por la izquierda. Por ejemplo, si una persona está casada y es mayor de edad o es mayor de 50 años, la condición
+a evaluar sería la siguiente:
+   
+   esCasado=verdadero Y esMayorDeEdad=verdadero O edad>50
+
+Primero se evaluará si son verdaderas las variables lógicas esCasado Y esMayorDeEdad, y al tener ese resultado, éste evaluará 
+con el operador de disyunción con lo que resulte de verificar si la edad es mayor a 50.
+
+En algunos casos, es necesario usar paréntesis para agrupar las condiciones lógicas que desean evaluarse antes que otras cuando
+se están usando operadores lógicos. Cabe destacar que, a mayor complejidad de la expresión lógica, más determinante será el uso
+de dichos símbolos.
+
+Por ejemplo, si se quisiera hacer más específica la verificación condicional para la entrada preferencial a las personas de la 
+3ra edad: mujeres a partir de 55 y hombres a partir de 60, la condición a evaluar sería:
+
+ (genero="F" Y edad>=55)  O  (genero="M" Y edad>=60)
+
+En esta condición se evalúan 2 datos de una persona, primero se evalúa si el género es femenino y su edad es mayor o igual a 55,
+luego se evalúa si el género es masculino y la edad mayor o igual a 60, y luego se evalúa la disyunción entre los resultados.
+
+En el caso de verificar si la edad de una persona está comprendida entre 1 y 20, o entre 40 y 70, la condición sería:
+
+ (edad >=1 Y edad <= 20) O (edad >= 40 Y edad <= 70)
+
+En esta condición, primero se evalúa si la edad está en el primer rango, luego se evalúa si está en el segundo rango y por 
+último se evalúa la disyunción entre los 2 resultados. Si se desea evaluar si el tipo de boleto ingresado es igual a G (general)
+o A (abonado), y además que la persona pague usando tarjeta de débito o de crédito, la condición sería:
+
+ (tipo_entrada = "G" O tipo_entrada = "A" ) Y (medio_pago = "TD" O medio_pago = "TC")
+
+En esta condición, primero se evalúa el tipo de entrada, luego el medio de pago y por último se evalúa la conjunción entre los 
+2 resultados.
+
+En este ejemplo se aprecia la diferencia entre usar los paréntesis y no hacerlo.
+
+https://mega.nz/file/D9dAjYoA#960tRbPwGxiXcPSB5KpCNQsj0-3HVA5-bEaO7VrqZio

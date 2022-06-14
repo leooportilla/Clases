@@ -1,0 +1,5 @@
+Cuando se estructuran expresiones lógicas, existen algunos casos en donde se requiere evaluar más de una condición al mismo 
+tiempo, donde se evalúen varias variables o donde una variable se compara con varios valores. Para crear ese tipo de expresiones
+lógicas, se emplean los Operadores Lógicos, siendo los más usados los siguientes:
+
+https://mega.nz/file/Xs9C1YSR#0vTdpJ7Ea6JQr6e9ixsZxfZDkqt5UY0OlOfalwXqhss

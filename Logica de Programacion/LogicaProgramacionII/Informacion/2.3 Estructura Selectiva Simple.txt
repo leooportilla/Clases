@@ -1,0 +1,31 @@
+La Estructura Selectiva Simple es la estructura condicional elemental. Presenta la forma:
+
+Si condicion Entonces 
+     Instrucciones 
+Fin Si 
+
+En esta estructura condicional, si la condición es Verdadera, se ejecuta el conjunto de acciones asociadas al "entonces", si 
+el resultado es Falso no se ejecuta ninguna acción. Por ejemplo, indicar que se use una chaqueta si se tiene frío (temperatura
+menor a 20 grados). En este caso, si se cumple la condición se mostrará el mensaje, en caso contrario no aparecerá nada.
+
+https://mega.nz/file/75sXGLpB#uS9no1EQgeIIhUkbRIjNeFsR__X2h3lciWc2BpFPJIM
+
+En el flujograma de la imagen se aprecia la implementación de una instrucción Selectiva Simple en PseInt, para calcular un 
+aumento de 5% al sueldo a un trabajador sólamente cuando tiene más de 5 años en la empresa.
+
+https://mega.nz/file/etVDiYSJ#toAwxpzWf-3fcHiCFOLSzOQk5xY2WaQHtldNHasJPcY
+
+El algoritmo textual de este flujograma se muestra a continuación. Es importante identificar cuales son las acciones 
+secuenciales y cuales son las acciones condicionadas.
+
+https://mega.nz/file/WtMDjY6Q#bm7MSkiDmDMYiZGadcr_Z7A9vyTFkFfZV9Swrd0BjC0
+
+Las consideraciones lógicas tomadas en cuenta para el ejemplo anterior son:
+
+¿Cuál es la condición que debe evaluarse en la selectiva?: 
+La condición correcta es: años > 5. Si por ejemplo, se cambiara el operador por >=, se produciría un error lógico, ya que si 
+el empleado tiene 5 años también se la calcularía el aumento, lo cual no cumple con el objetivo planteado.
+¿Cuáles instrucciones están condicionadas y cuáles no?: 
+colocar una instrucción dentro del "si" cuando debe estar afuera o viceversa acarrearía un error lógico. En ejemplo, las 
+declaraciones de variables, entradas y salida se hacen siempre, debido a que no están condicionadas por nada, es decir, que 
+el mensaje de salida se presentará independientemente de si el trabajador tiene más de 5 años en el empleo o no.
