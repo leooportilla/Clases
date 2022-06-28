@@ -1,0 +1,38 @@
+Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o 
+una configuración del mismo. Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo 
+en un momento dado de su desarrollo o modificación.
+
+En el desarrollo de software, un Sistema de Control de Versiones (SCV o CVS por las siglas Control Versión System) brindará 
+apoyo para gestionar de manera eficiente, cronológica y detallada las diversas versiones que se van generando en el proyecto,
+con el objetivo de agilizar los tiempos de desarrollo y facilitando el trabajo en equipo.
+
+https://mega.nz/file/2t8yHIDb#iKfYMPkL2aquRVM3o6ucLsLX-f6M20it8QrB3sgDm8s
+
+Durante los 70’s hasta inicios del 2000, muchos profesionales (principalmente de software) se encontraban con 3 problemas:
+
+Proyectos difíciles de gestionar y liderar.
+Riesgos a sobrescribir con mi código el avance formal del equipo.
+La centralización y poca probabilidad de trabajar remotamente.
+Para resolver estos problemas, se crearon diferentes sistemas de control de versiones:
+
+SCCS (1972).
+RCS (1982).
+CVS (1986-1990).
+SVN (2000).
+BitKeeper SCM (2000).
+Mercurial (2005)
+Es muy frecuente encontrar desarrollos de proyectos en los cuales existen gran cantidad de archivos, donde cada uno es una 
+versión mejorada del anterior lo cual hace prácticamente incierto cuales son los archivos más actualizados representando un 
+problema muy poco práctico.
+
+Los sistemas de control de versiones buscan eliminar el problema reflejado en la siguiente imagen:
+
+https://mega.nz/file/K9kEUCwL#nJ2UWr2gJlwKtWp9K0rk2A-Qm22X_RY0pjTzGlY3MQ4
+
+Un sistema de control de versiones busca gestionar ágilmente proyectos. Parte de su principal propósito es que se pueda regresar
+ a un estado anterior del proyecto o conocer, incluso, toda su evolución en el tiempo. Desde sus inicios hasta donde se 
+ encuentra actualizado.
+
+Se pueden ver a los SCV como máquinas del tiempo, que permiten regresar a cualquier momento que se necesite en el proyecto.
+
+https://mega.nz/file/29d2DSCC#QUg21R8cUynEkT9FXBwBeBHKGY8NcMSU24kLPwndXRI

@@ -1,0 +1,23 @@
+Git es un sistema de control de versiones elaborado por Linus Torvalds de libre distribución y de código abierto diseñado para 
+manejar todo, desde proyectos pequeños a muy grandes con rapidez y eficiencia.
+
+El núcleo de Linux es un proyecto de software de código abierto con un alcance bastante grande. Durante la mayor parte del 
+mantenimiento del núcleo de Linux (1991-2002), los cambios en el software se pasaron en forma de parches y archivos. En 2002, 
+el proyecto del núcleo de Linux empezó a usar un SCV propietario llamado BitKeeper. Luego el equipo de desarrollo de Linux 
+encabezado por Linus Torvalds implementó Git como su propio SCV.
+
+El sitio oficial del proyecto Git es https://git-scm.com. Desde la sección de descarga se puede obtener los instaladores para 
+diversos sistemas operativos.
+
+El sitio oficial provee un apartado de documentación para aprender los aspectos principales de la aplicación. En la imagen se 
+muestra la página de descarga.
+
+https://mega.nz/file/agUH1aSS#i9WI_IZRfzs8liN5FJLhS3_W1qIkNf6_E3Ito8DpWxU
+
+En el caso de Windows, Git ofrece un archivo ejecutable que permite realizar la instalación del software. Como típico 
+instalador de Windows, la instalación es muy sencilla, sólo se debe seguir el proceso del asistente de instalación haciendo 
+clic en“siguiente” en todos los pasos del mismo. Para la instalación de Git no se requiere ningún software especializado 
+previamente instalado en el computador.
+
+
+

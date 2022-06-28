@@ -1,0 +1,11 @@
+Una forma muy común de usar Git es mediante una terminal o consola. Existen 2 maneras de usar Git mediante consola:
+
+° Consola del sistema operativo: consola que viene con el sistema operativo.
+° Git Bash: herramienta que se instala con Git y que emula una consola de Linux.
+
+Este programa se puede ejecutar como cualquier aplicación de escritorio. Existe una manera rápida de abrir Git Bash en un 
+directorio específico, simplemente haciendo click con el botón derecho sobre el directorio y seleccionando la opción “Git Bash 
+here”. Esto último ejecutará el programa y ya se podrán usar los comandos de Git en el directorio especificado.
+
+https://mega.nz/file/S4dnUCrJ#mCXjuV3ZIMEMwDEEK88zBs533oO8GWS5bnhXrwPfPY8
+

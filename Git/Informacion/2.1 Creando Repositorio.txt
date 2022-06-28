@@ -1,0 +1,3 @@
+Para comenzar un proyecto en Git se debe hacer uso del comando “git init”. Basta con posicionarse en el directorio en el cual 
+se quiere iniciar un repositorio de Git, para luego usar el comando:
+
