@@ -1,0 +1,17 @@
+En ocasiones, un objeto puede contener en su interior varios objetos de la misma clase. Para facilitar su 
+manipulación estos objetos pueden agruparse en "colecciones". Una colección es un conjunto de objetos de 
+una misma clase bajo un mismo nombre.
+
+Un objeto tangible puede contener una colección de objetos intangibles o viceversa. Por ejemplo, un equipo 
+de Futbol, que es un objeto intangible, contiene una colección de objetos tangibles de la clase Jugador. 
+Un objeto campeonato que también es un objeto intangible, contiene una colección de objetos partidos que a 
+su vez contiene la colección de objetos jugador.
+
+Otro ejemplo es un objeto de la clase "Carro" que posee 4 objetos de la clase "Rueda". Estos objetos se 
+pueden manejar como atributos por separado en la clase "Carro" o se pueden manejar como una colección de 
+objetos "Rueda". Cualquiera de ambas propuestas sería valida, aunque la decisión podría variar dependiendo 
+de la optica del programado
+
+Otro ejemplo clásico es una hoja de cálculo digital (por ejemplo de Excel). Una hoja de cálculo es un objeto
+de la clase "Libro", que contiene en su interior una colección de objetos de la clase "Hojas". Cada objeto 
+hoja tiene un nombre y una colección de objetos de la clase "Celda".

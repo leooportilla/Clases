@@ -1,0 +1,21 @@
+Un atributo es una variable que se declara internamente en una clase. El nombre de un atributo debe ser 
+coherente con el valor que almacenará y no puede haber 2 atributos con el mismo nombre en una clase.
+
+
+Los atributos de una clase pueden ser simples (o primitivos), es decir, de un tipo de dato básico como: 
+entero, real, lógico, caracter, o tambien pueden ser más complejos (un objeto de otra clase). En esta 
+primera parte del curso se usaran sólo tipos de datos simples. Por ejemplo:
+
+     clase Alumno
+
+          definir nombre como caracter
+
+          definir nota como numerico
+
+          definir aprobado como logico
+
+     fin clase
+
+Siguiendo la misma metodología aprendida en lógica de programación, al analizar un problema se determinan 
+las entradas y las salidas. Los atributos que se declaran en la clase dependeran de este análisis, por lo 
+tanto, los atributos mínimos que debería tener una clase son las entradas y las salidas del problema.

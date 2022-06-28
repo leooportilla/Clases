@@ -1,0 +1,23 @@
+Un evento es una señal que recibe un objeto por la ocurrencia de una acción del usuario o del sistema; esta 
+acción puede desencadenar la ejecución de un método en el objeto que recibe la señal siempre y cuando esté
+programado para tal fin.
+
+Alice proporciona una serie de eventos predefinidos agrupados por categoría, a los cuales el programa puede 
+responder ejecutando acciones. Los eventos se agrupan:
+
+° Eventos del escenario (Scene activation/Time).
+° Eventos del teclado (Keyboard).
+° Eventos del mouse (Mouse).
+° Eventos de Posición / orientación(Position/Orientation).
+
+Alice permite “cargar” una lista de eventos cuando se inicializa el mundo, de forma tal que al ejecutar el 
+juego se activen los “oyentes” o "escuchadores" de las señales de esos eventos y el juego pueda recibir y 
+manejar esas señales. La lista de eventos debe agregarse en la pestaña "initializeEventsListeners", como se 
+muestra en la siguiente imagen:
+
+https://mega.nz/file/ml9izRQQ#vMpqFviBRRzl3p48Pr6RkV5Cu3TM3pqf1RqdW4gP-xA
+
+Para agregar eventos en Alice se hace click en el botón “Add event listener” y se despliega las lista de 
+opciones con los eventos mencionados anteriormente, tal como se muestra a continuación:
+
+https://mega.nz/file/jxNilTTI#vlUkPVsEp2sDjeIVQtTIUWSt1yHLnZ4ubjYxSJgfXjU

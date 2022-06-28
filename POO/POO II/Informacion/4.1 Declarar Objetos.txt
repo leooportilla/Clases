@@ -1,0 +1,30 @@
+Básicamente una clase es un tipo de dato. Un objeto es una variable de un tipo de dato de alguna clase 
+definida previamente. Por lo tanto, definir un objeto no es más que definir una variable del tipo de dato 
+de la clase a la cual pertenece. El nombre de la variable que identifica al objeto es arbitrario. Para 
+definir variables, se usará la palabra reservada "definir", como en el siguiente ejemplo:
+
+     algoritmo ejemplo
+
+          definir alum1 como Alumno
+
+     fin algoritmo
+
+En este ejemplo se esta definiendo en el cuerpo principal del programa una variable (un objeto) con el nombre
+"alum1" que pertenece a la clase "Alumno" (es de tipo Alumno). Se pueden definir tantos objetos de la misma 
+clase como sea necesario para resolver el problema, por ejemplo:
+
+     algoritmo ejemplo
+
+          definir alum1, alum2 como Alumno 
+
+     fin algoritmo
+
+También se pueden definir objetos de distintas clases, por ejemplo:
+
+     algoritmo ejemplo
+
+          definir alum1, alum2 como Alumno
+
+          definir prof1 como Profesor
+
+     fin algoritmo

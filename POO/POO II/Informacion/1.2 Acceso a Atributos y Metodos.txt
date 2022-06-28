@@ -1,0 +1,12 @@
+Para acceder a los atributos y métodos de objetos que son parte de una colección, debe realizarse un 
+procedimiento similar al utilizado cuando un objeto es parte de otro objeto:
+
+° Debe accederse al objeto contenedor.
+° Hacer referencia a la colección.
+° Se especifíca uno de los elementos de la colección.
+° Por último, se accede a alguno de los atributos o métodos del objeto que está en la colección.
+
+Usando el ejemplo del disco duro y la computadora, una computadora puede tener varios discos duros. Para 
+grabar en un disco duro hay que hacer referencia a cual disco duro de los que estan conectados se desea
+grabar.
+

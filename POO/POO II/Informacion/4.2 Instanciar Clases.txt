@@ -1,0 +1,24 @@
+La instanciación es la creación de un objeto a partir de una clase. La palabra instanciar viene de una mala 
+traducción de la palabra "instance", que en inglés significa ejemplar. Para crear un objeto se tiene que 
+escribir una instrucción especial que puede ser distinta dependiendo el lenguaje de programación que se 
+emplee, pero será algo parecido a esto:
+
+     algoritmo ejemplo
+
+          definir miCarro como Carro
+
+          miCarro= nuevo Carro()
+
+     fin algoritmo
+
+Un ejemplo de una instancia de la clase Carro es la siguiente:
+
+https://mega.nz/file/H8VCDaoQ#pYlc-aA20r42uwKa0TGbXBM5tqImGWNivxpZ1XxJX1o
+
+Con la palabra "nuevo" se crea la instancia de la clase que se coloca luego de la palabra "nuevo". La clase
+que se coloca luego de la palabra "nuevo" debe coincidir con el tipo de dato en la declaración del objeto 
+(aunque más adelante se también puede ser una sub clase del tipo de dato del objeto).
+
+En los lenguajes de programación donde se declaran las variables (como C++, Java, C#), se puede confundir la 
+diferencia entre declaración e instanciación. En los lenguajes donde no se declaran las variables, solo se 
+hace la instanciación (como JavaScript y Php).

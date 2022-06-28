@@ -1,0 +1,35 @@
+Un evento es una señal que recibe un objeto en un momento dado, que demandará posiblemente una acción de 
+respuesta por parte del objeto que recibe la señal.
+
+Un evento básicamente es la ocurrencia de una acción que realiza un objeto sobre otro objeto. El objeto que 
+genera el evento lo hace por medio de un método y le envía la señal al otro objeto. Ejemplos de eventos son: 
+introducir la tarjeta en un telecajero, presionar el botón de encendido de la computadora, mover el teléfono,
+hacer click, entre otros.
+
+Es un suceso en el sistema (tal como una interacción del usuario con la máquina,). El sistema maneja el 
+evento enviando el mensaje adecuado al objeto pertinente.
+
+En el contexto del software, un evento es una acción que el usuario puede producir sobre algún elemento de 
+un programa, por ejemplo:
+
+° Hacer click.
+° Doble click.
+° Pasar el cursor sobre algo.
+° Presionar una tecla.
+° Soltar una tecla.
+
+Los eventos también pueden venir desde otros medios, por ejemplo, de la red cuando un programa remoto hace 
+una petición.
+
+Generalmente existe un objeto contenedor de todos los objetos, quien es el encargado de capturar la 
+generación de eventos entre éstos. En el contexto del software, para ser más técnicamente precisos, el 
+sistema operativo es quien recibe el evento y lo envía a la aplicación sobre la cual se debe ejecutar, y si 
+la aplicación está programada para responder a ese evento, reaccionará ejecutando alguna acción.
+
+La ocurrencia de un evento sobre un objeto puede disparar la ejecución de un método en el objeto que lo 
+recibe (siempre y cuando esté programada la asociación entre el evento sobre el objeto y algún método de 
+éste objeto).
+
+Los eventos se usan para señalar acciones del usuario, acciones mediante las cuales el objeto reconoce que se
+está interactuando con él. De esta forma el objeto se activa y responde al evento según lo programado en su
+código.

@@ -1,0 +1,34 @@
+En la programacion orientada a objetos luego del análisis del problema y de la aplicación de la abstracción, 
+en la codificación el primer paso que se debe realizar es definir las clases. Cuando se define una clase se 
+definir:
+
+° El nombre de la clase.
+° Los atributos.
+° Los métodos.
+
+El nombre de la clase debe ser suficiente general y explicita por si misma. Se usa un nombre en singular que 
+generalice a los objetos que agrupa. También se estila que el nombre de la clase comience en una letra en 
+mayúscula.
+
+Todos los lenguajes de programación tienen sus reglas particulares para definir clases. En este curso, se 
+usará un pseudocódigo para escribir programas orientados a objetos. Se usara la palabra "clase" (la mayoría 
+de los lenguajes usan la palabra "class") seguido del nombre de la clase y terminando con las palabras "fin 
+clase". Por ejemplo:
+
+     clase Alumno
+
+     fin clase
+
+Entre las palabras "clase" y "fin clase" se definen los atributos y los métodos de la clase.
+
+En un mismo programa se pueden definir tantas clases como sea necesario, dependiendo del problema que se 
+esté intentando resolver. Cada clase debe tener su propio inicio y fin, por ejemplo:
+
+   clase Alumno
+
+   fin clase
+
+
+   clase Profesor
+
+   fin clase

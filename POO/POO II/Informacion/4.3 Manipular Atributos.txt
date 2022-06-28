@@ -1,0 +1,79 @@
+A través de los objetos se puede acceder a los atributos de la clase a la que pertenece. Esto se logra 
+haciendo uso del operador punto (".") (esto depende del lenguaje de programación). Por ejemplo:
+
+     clase Alumno
+
+          definir nombre como caracter
+          definir nota como numero
+
+     fin clase
+
+     algoritmo ejemplo
+
+          definir alum1 como Alumno
+          alum1 = nuevo Alumno()
+          alum1.nombre = "jenny"
+          alum1.nota = 20
+
+     fin algoritmo
+
+Por medio de un objeto de una clase se puede realizar cualquier operación sobre los atributos de la clase: 
+leer su valor por teclado, mostrar el valor, asignarle otra variable. Por ejemplo:
+	
+     algoritmo ejemplo
+
+         definir alum1 como Alumno
+         alum1 = nuevo Alumno()
+         mostrar "Introduzca el  nombre: "
+         leer alum1.nombre
+         mostrar "El nombre del alumno es " alum1.nombre
+
+     fin algoritmo
+
+Al tener varios objetos de la misma clase, cada objeto tiene los valores de sus atributos independientes de
+los valores de los atributos de los demás objetos. Por ejemplo:
+
+     algoritmo ejemplo
+
+          definir alum1, alum2 como Alumno
+          alum1= nuevo Alumno()
+          alum2= nuevo Alumno()
+          alum1.nota = 20
+          alum2.nota = 12
+
+     fin algoritmo
+
+En este ejemplo el objeto alum1 almacena en el atributo "nota" el valor 20, pero el objeto "alum2" almacena 
+en el mismo atributo el valor 12. Cada objeto (aunque sean de la misma clase) posee un valor para el atributo
+"nota".
+
+Un atributo puede tomar el valor de una variable siempre y cuando sea del mismo tipo. Por ejemplo:
+
+     algoritmo ejemplo 
+
+          definir alum1 como Alumno 
+          definir n como numero
+          alum1= nuevo Alumno()
+
+          n = 12
+          alum1.nota = n
+          mostrar "La nota del alumno es " alum1.nota
+
+     fin algoritmo
+
+O entre valores de atributos de objetos:
+
+     algoritmo ejemplo 
+
+          definir alum1, alum2 como Alumno 
+          alum1= nuevo Alumno()
+          alum2= nuevo Alumno() 
+          alum1.nota = 20 
+          alum2.nota = alum1.nota
+          mostrar "La nota del alumno es " alum2.nota //mostrará 20 
+
+     fin algoritmo
+
+En el ejemplo, el objeto "alum2" esta recibiendo en su atributo "nota" el mismo valor de ese atributo en el 
+objeto "alum1". Esto puede hacerse entre cualquier atributo de cualquier objeto, siempre y cuando sean de 
+tipos de datos compatibles.

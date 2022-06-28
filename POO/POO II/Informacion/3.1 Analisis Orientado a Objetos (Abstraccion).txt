@@ -1,0 +1,21 @@
+Analizar una situación pensando en términos de objetos debería ser muy natural debido a que así funciona el 
+mundo real. Durante éste análisis se deben observar todos los objetos que son relevantes según el contexto, 
+tanto los tangibles como los intangibles, para luego agruparlos en clases (el concepto de clases se estudiará
+más adelante).
+
+En el juego de MarioBros se pueden identificar varios objetos:
+
+° MarioBros
+° Un tubo deslizador
+° Un hongo
+° Un enemigo
+° Tres bloques
+° Un bloque de puntos
+° El mundo
+
+La dinámica que siguen los objetos en este contexto es la siguiente: MARIOBROS aparece en un MUNDO. Corre a traves de éste y se puede tropezar con ENEMIGOS. Estos ENEMIGOS intentan matarlo y el debe saltarlos. Al tocar un BLOQUE con premio aparece un HONGO. Si MARIOBROS agarra el HONGO crece. También puede saltar sobre un TUBO DESLIZADOR y puede ir a otro MUNDO. Nota: las palabras en mayúsculas son objetos.
+
+La intención final de hacer un análisis orientado a objetos es tomar de una realidad lo necesario para crear un software utilizando programación orientada a objetos. Por lo tanto, este análisis implica un proceso de abstracción, que consiste en considerar de un contexto los objetos que son realmente relevantes y omitir los que no los son.
+
+
+Por ejemplo, en un sistema hospitalario los objetos relevantes son: los medicos, los pacientes, las enfermeras, las habitaciones, las enfermedades, las citas, las hospitalizaciones, entre otros, pero no son tan relevantes otros objetos como las papeleras, las computadoras, las lamparas de las habitaciones, etc; pero tal vez estos objetos si sean relevantes en otros contextos.

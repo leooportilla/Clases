@@ -1,0 +1,38 @@
+En los lenguajes de programación donde se declaran las variables, un objeto no puede ser usado hasta que no 
+sea instanciado. Como la declaración y la instanciación se pueden hacer en momentos diferentes del algoritmo,
+un objeto mantiene un valor mientras que no sea instanciado. Ese valor es "null".
+
+
+Si se intenta usar un objeto sin haberse instanciado se obtendría un error de ejecución en el programa. Por 
+ejemplo:
+
+     algoritmo ejemplo
+          definir alum1 como Alumno
+          alum1.nombre = "maría" // producirá un error
+          alum1 = nuevo Alumno()
+
+     fin algoritmo
+
+Una objeto puede ser asignado a otro objeto:
+
+     algoritmo ejemplo 
+
+          definir alum1, alum2 como Alumno 
+          alum1= nuevo Alumno() 
+          alum1.nota = 20 
+          alum1.nombre = "jenny"
+          alum2 = alum1
+          mostrar "el nombre del alumno es " alum2.nombre
+
+     fin algoritmo
+
+En el ejemplo anterior, se esta asignando al objeto "alum2" todo el objeto "alum1" (con todos sus atributos),
+por lo tanto, al mostrar el valor del atributo "nombre" mostrará el mismo valor que tiene el objeto "alum1" 
+(mostrará el valor "jenny").
+
+En algunos lenguajes de programación (como Java) al hacer esta asignación, ambas variables quedan "ligadas" 
+entre sí (o conectadas), por lo tanto, al modificar los atributos de uno de los objetos se modificarán los 
+valores del otro objeto y viceversa.
+
+En algunos lenguajes de programación simplemente se asignan los valores de cada atributo de un objeto al 
+otro y de ahí en adelante siguen independientes uno del otro.

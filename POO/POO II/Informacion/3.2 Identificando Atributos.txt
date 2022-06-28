@@ -1,0 +1,50 @@
+La abstracción en el análisis orientado a objetos también implica tomar las características esenciales de un 
+objeto dependiendo del contexto en donde éste se encuentre. Por ejemplo, una persona puede ser un objeto 
+relevante en un contexto de un sistema hospitalario (médicos, enfermeras y pacientes son personas) y también 
+puede ser relevante en el contexto de un sistema de facturación (clientes, vendedores, etc), pero en cada 
+contexto los atributos relevantes pueden variar.
+
+
+Básicamente un atributo es una variable, por eso, luego de identificar las características de un objeto, 
+deben describirse en nombres genéricos. En carro los atributos son más evidentes son:
+
+° Color: blanco
+° Marca: Chevrolet
+° Año: 2015
+° Tamaño de rin: 14
+° Papel ahumado: no
+° Vidrios eléctricos: si
+° Número de cilindros: 4
+° Encendido: no
+
+Ejemplos de atributos de algunas clases
+https://mega.nz/file/H0snRAAa#TZ087cgdlJFmdnhFQmHbTC7kJTHlGcMRExxrIFE1jGA
+
+Otro ejemplo: la academia CADI F1 está ubicada en el local 27 del centro comercial Sotavento, que tiene 144 
+mts cuadrados de área, está ubicada en la avenida Pedro León Torres en Barquisimeto, tiene piso de cerámica, 
+2 baños y una altura de 2.44 mts. En este ejemplo se pueden distinguir implícitamente varias características 
+de un objeto tangible. Entre las características estan:
+
+° Número: 27.
+° Área: 144 mts cuadrados.
+° Dirección: av Pedro León Torres en Barquisimeto.
+° Altura: 2.44 mts.
+° Tipo de piso: cerámica.
+° Empresa que usa el local: CADI F1.
+° Número de baños: 2.
+
+En la POO, cuando se piensa en propiedades debe pensarse en términos de datos que pueden variar de objeto en 
+objeto. Por ejemplo, qué varía de un carro a otro: la marca, el color, el modelo, el año de fabricación, 
+etc. Como una propiedad es una variable, se le debe establecer su nombre y se debe identificar el tipo de 
+dato de los posibles valores que almacenará (número, lógico, caracter). Por ejemplo, entre los alumnos de 
+una universidad los datos que pueden variar son:
+
+° Nombre (alfanumérico).
+° Cédula (numérico).
+° Carrera que estudia (alfanumérico)
+° Edad (numérico).
+° Sexo (alfanumérico).
+° Fecha de ingreso (fecha).
+° En la siguiente imagen se muestran los atributos relevantes según cada contexto:
+
+https://mega.nz/file/a4sXQILK#7QzPK5WTIspyjEDxSRyAz-k3LeAI2ZWaz35OkH6nJ-Q

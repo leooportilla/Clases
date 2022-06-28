@@ -1,0 +1,19 @@
+Los posibles eventos de teclado que se pueden programar son los siguientes:
+
+° addKeyPressListener: cuando presiona una tecla (cualquiera).
+° addArrowKeyPressListener: cuando el usuario presiona una tecla de flecha.
+° addNumberKeyPressListener: cuando el usuario presiona una tecla de número.
+° addObjectMoveFor: mueve cierto objeto cuando el usuario presiona las teclas de flechas.
+
+https://mega.nz/file/2ktniQCZ#QAO5SEQlOF6PqSJfzXpWKvYKfSYLvoLCn-IyCK0RhGk
+
+Al seleccionar alguno de los eventos se despliega una serie de opciones. Si selecciona agregar un evento del 
+teclado addKeyPressListener, se carga el evento del teclado presionar tecla, tal como se muestra a 
+continuación:
+
+https://mega.nz/file/vpdDzIzB#Wbc3CfIMpnlUCCxrRy5mSuI6v0kUWqU8Q1pBblZUxGk
+
+Luego, se pueden agregar instrucciones al evento que afecten otros objetos, de forma que al presionar una
+tecla se ejecuten los métodos o instrucciones que estén programados en el evento.
+
+https://mega.nz/file/Dp1kSIJC#cPpvP75C2elDgQDoJxY9siPGP6-g_PQg10U0056aQWM
