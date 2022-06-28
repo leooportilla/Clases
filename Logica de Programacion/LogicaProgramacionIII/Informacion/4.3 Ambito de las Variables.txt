@@ -1,0 +1,30 @@
+Una de las características de la programación modular es la independencia de los módulos. Esta 
+independencia es importante, no sólo porque puede ser diseñado sin conocimiento del diseño de 
+otros módulos, sino también porque la ejecución de un sub-proceso particular no afectará a los 
+valores de las variables que pertenecen a otros sub-procesos. Esto se vuelve más complejo en los 
+lenguajes de programación que permiten el anidamiento de módulos (lo cual está fuera del alcance
+de este curso).
+
+Por esta razón, es preciso definir un nuevo concepto de gran importancia: Ámbito de una variable.
+
+
+Se conoce como "Ámbito de una variable" a la parte de un programa donde ésta es relevante, en otras 
+palabras, todos aquellos lugares de un programa donde se puede utilizar la variable.
+
+En relación al ámbito, se cumplen las siguientes reglas:
+
+° Una variable global se puede usar en cualquier parte del programa.
+° Una variable local sólo puede ser usada en el módulo donde se declara.
+° En un mismo módulo no se pueden repetir los nombres de las variables.
+° Una variable se puede declarar con el mismo nombre en módulos diferentes.
+° Si una variable local tiene el mismo nombre de una variable global, al hacer referencia al 
+  nombre de la variable dentro del módulo, se accede a la variable local.
+° En el siguiente ejemplo se puede demostrar como se aplica el ámbito de las variables. Las 
+  salidas del siguiente programa serían:
+
+50 , 20 , 25 (Cuerpo Principal)
+25 , 10 , 40 , 50 (Modulo A)
+30 , 45 , 60 , 10 (Modulo B)
+25 , 45 , 25 (Cuerpo Principal)
+
+https://mega.nz/file/W5ElyKoQ#-EtvImU1Exi9gj6Rt7AnvSbAUqc-c9mGR4tsRsaZTBY

@@ -1,0 +1,35 @@
+Entre los parámetros actuales y formales existe una relación muy estrecha, fundamentado en el 
+hecho de que entre ellos se deben cumplir las siguientes 3 condiciones:
+
+
+1.-Deben tener la misma cantidad: en la definición e invocación de un módulo debe haber la misma 
+cantidad de parámetros. Ej.: si en la definición se colocan 5 parámetros formales, en el llamado
+al módulo deben colocarse obligatoriamente 5 parámetros actuales. Ni más, ni menos. De lo 
+contrario, ocurrirá un error. Véase el ejemplo de errores por cantidad de parámetros...
+
+https://mega.nz/file/Hscy2YSJ#fZLi-C38BnsxOloljUrVjmfXEwsp4j9E3LPW5rF-WHE
+
+2.- Deben ser del mismo tipo: debe haber correspondencia de tipo de dato en la relación uno a 
+uno entre los parámetros actuales y formales. Por ej., si el módulo recibe 2 parámetros tipo 
+real, no se pueden colocar en el llamado del módulo 2 parámetros alfanuméricos. En el ejemplo 
+se aprecia un error por no coincidir el tipo de dato:
+
+https://mega.nz/file/no0FxbpT#u6h_FogkuvNtR_ye6mI2N0P8yr6y0Vc8kzBJJEQAsWo
+
+3.- Deben estar en el mismo orden: los parámetros formales y actuales deben ser indicados en 
+el mismo orden. De no respetar el orden, aunque no necesariamente ocurrirá un error de 
+verificación de código, los resultados del módulo muy probablemente serán incorrectos. 
+Ej.: si un módulo define 2 parámetros reales, uno indica la estatura y el otro el peso, al 
+ser llamado el módulo, deben colocarse los parámetros actuales en el mismo orden, 1ero la 
+estatura y 2do el peso. Véase este ejemplo donde no se cumple con esta regla:
+
+https://mega.nz/file/XgUmUKgR#vPgWUMghW3KHvBPkpCOJempZM-65K0d8gX_uzzIPUTc
+
+No es necesario que los parámetros actuales y formales tengan el mismo nombre (aunque inicialmente 
+esto sea una práctica común). Es decir, los parámetros formales y actuales pueden tener nombres 
+distintos, aún cuando se refieren al mismo dato. Para que al momento de la corrida se "sepa" a que 
+se refiere cada parámetro, es suficiente con cumplir las tres (3) condiciones referidas. Ej.: se 
+puede definir un módulo con los parámetros formales nombre, apellido, edad. Y al invocar este módulo 
+se puede hacer usando los parámetros actuales nomb, ape, ed.
+
+https://mega.nz/file/K4tllaoC#2GowdVMc0v7f3-v0z2Pak50Y82R0e8sExgzOTnOVUHc

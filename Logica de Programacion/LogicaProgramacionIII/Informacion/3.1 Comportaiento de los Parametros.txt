@@ -1,0 +1,13 @@
+Para que un programa modular sea funcional, se debe decidir cuál será el tratamiento que se le dará 
+a cada parámetro. Esto determinará su comportamiento en el contexto de la comunicación entre módulos. 
+Por ello, en cada módulo se debe decidir como tratar a cada parámetro, eso conduce a establecer si 
+un parámetro será:
+
+° POR VALOR: significa que el módulo recibe sólo una copia del valor que tiene la variable, o sea que 
+no la puede modificar.
+
+° POR REFERENCIA: significa que se pasa la posición de memoria donde está guardada la variable, así el 
+módulo puede saber que valor contiene, y además puede modificarlo.
+
+IMPORTANTE: El tratamiento que se le vaya a dar al parámetro se establece en los parámetros formales 
+(definición del módulo), nunca en los parámetros actuales (llamado de los módulos).

@@ -1,0 +1,35 @@
+La solución de un problema complejo puede requerir muchos pasos...
+
+Por ello, a mayor complejidad en el problema, se hace más difícil crear el algoritmo que lo resuelva, razón por la 
+cual, se perfila necesario aplicar alguna estrategia para simplificar la resolución del problema.
+
+La estrategia o táctica más idónea, es dividir el problema inicial en sub-problemas que sean más fáciles de resolver.
+A este método se le denomina Divide y Vencerás. La aplicación computacional de esa táctica implica programar 
+modularmente.
+
+En general, la MODULARIDAD es la cualidad que tiene un sistema de ser estudiado, visto y entendido, como la unión de 
+varias partes que interactúan entre sí trabajando cooperativamente para alcanzar un objetivo común, por lo tanto cada
+una de ellas es necesaria para lograr lo esperado.
+
+En el ámbito de la programación, un MÓDULO (también llamado sub-proceso, sub-rutina, sub-programa, procedimiento o 
+función) es cada una de las partes independientes en que se divida un programa.
+
+Cada módulo contiene un conjunto de instrucciones que están separadas del programa principal.
+
+Un módulo debe poder funcionar como una caja negra, es decir, interactuar con el resto del programa cumpliendo con 
+"hacer lo que debe", sin dar importancia a "cómo lo hace", es decir, ser independiente funcionalmente del resto de 
+los módulos y comunicarse con ellos según sea necesario.
+
+La computadora es un ejemplo de un equipo hecho de forma modular, debido a que cada una de las partes que la 
+conforman interactúan para lograr un fin común (permitir al usuario utilizar el software que está corriendo sobre 
+el hardware). Cada una de las partes que conforman al computador, es independiente de la otra y se comunican entre 
+sí para trabajar en conjunto. Muchos de estos módulos poseen sub-módulos que lo componen, por ejemplo: la tarjeta 
+madre tiene conectado el CPU, el disco duro, la memoria, las unidades ópticas, etc. Por su parte, el disco duro, 
+internamente está dividido en módulos, esto mismo ocurre con otros componentes.
+
+Un módulo debe resolver un problema específico (pequeño) del gran problema, por lo cual, idealmente un módulo debería
+tener un objetivo primario, lo cual se tratará en lo sucesivo como SINGULARIDAD DE PROPÓSITO.
+
+Si dentro de un mismo módulo, se colocan muchas instrucciones relacionados con el procesamiento de datos, el módulo 
+tenderá a hacerse largo, en consecuencia será más difícil de examinar y mantener. Ésto evidenciaría que dicho módulo 
+es multipropósito, y no se estaría sacando el máximo provecho de programación modular.

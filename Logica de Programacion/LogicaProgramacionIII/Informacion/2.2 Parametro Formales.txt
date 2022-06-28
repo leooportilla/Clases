@@ -1,0 +1,40 @@
+Cuando se define un módulo, si se determina que éste necesita parámetros o retorna parámetros, éstos deben indicarse 
+en la definición del módulo. A esto se le llama "Definición de los Parámetros". Los parámetros que se colocan en la 
+definición de los módulos se denominan PARÁMETROS FORMALES.
+
+Para definir dichos parámetros, a continuación del nombre del módulo, se debe colocar a continuación su(s) 
+parámetro(s) encerrados entre paréntesis (). Si están en juego varios parámetros, se separan usando comas ( , ). 
+En los lenguajes de programación, además se debe especificar el tipo de dato de cada parámetro.
+
+
+La forma general de definir los parámetros en pseudocódigo (no PseInt) es la siguiente:
+
+
+SubRutina nombreModulo (parametro1 : tipoDato, parametro2 : tipoDato)
+	......
+FinSubRutina
+
+En PseInt no es necesario colocar el tipo de dato del parámetro. Por lo tanto, la forma general de declarar los 
+parámetros es la siguiente:
+
+SubProceso ejemplo1 (parametro1, parametro2, parametro3, ..., parametroN) 
+	...... 
+FinSubproceso
+
+Para el ejemplo del envío de mensajes, la definición del módulo es la siguiente:
+
+SubProceso EnviarMensaje (nroTelefono,mensaje)
+	.......
+FinSubproceso
+
+Recuérdese que también se puede utilizar la combinación de palabras reservadas SubAlgoritmo/FinSubAlgoritmo.
+
+Como ejemplo se tiene un módulo encargado de solicitar 2 datos al usuario. Éstos se establecen como parámetros del 
+módulo, por tanto deben colocarse en la definición del módulo:
+
+SubProceso LeerEntrada(Nombre, Edad) ----- Parametro Formal
+   Mostrar "Ingresar nombre: " 
+   Leer Nombre
+   Mostrar "Ingresar edad: "
+   Leer Edad
+FinSubProceso

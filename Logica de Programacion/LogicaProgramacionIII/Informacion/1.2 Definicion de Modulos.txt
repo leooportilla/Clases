@@ -1,0 +1,49 @@
+Para desarrollar un programa modular, los módulos deben ser definidos. La definición de un módulo, consiste en 
+enmarcar bajo un nombre el conjunto de instrucciones que lo componen.
+
+Los nombres dados a los módulos deben ser significativos.
+
+No debería haber varios módulos con el mismo nombre dentro del mismo programa (esto tiene su excepción en la 
+Programación Orientada a Objetos).
+
+Cada lenguaje de programación establece una forma de definir los módulos.
+
+En pseudocódigo de PseInt, se usa un par de palabras reservadas para enmarcar las instrucciones de un módulo, lo 
+cual implica que se está definiendo este tipo de bloque de código.
+Los pasos para definir un módulo en PseInt son los siguientes:
+
+1. Colocar la palabra reservada de apertura (SubProceso o SubAlgoritmo)
+2. Colocar el nombre del módulo, precedido por un espacio en blanco
+3. Sin dejar espacio, se colocan entre paréntesis, el(los) parámetro(s). Éste término se refiere a un dato que el 
+   módulo "necesita para algo" y se desarrolla en profundidad más adelante.
+4. Se colocan las instrucciones que conforman el cuerpo del módulo, y permiten lograr su objetivo.
+
+Finalmente, se coloca la palabra reservada de cierre (FinSubproceso o FinSubAlgoritmo).
+A continuación se ejemplifica la definición de 2 módulos en PseInt (sin cuerpo) usando las combinaciones de las 
+palabras claves referidas:
+
+SubProceso Modulo()
+    //Aqui van las instrucciones que se van a ejecutar dentro del modulo 
+FinSubProceso 
+
+SubAlgoritmo Modulo2()
+   //Aqui van las instrucciones que se van a ejecutar dentro del modulo
+FinSubAlgoritmo
+
+En pseudocódigo, los módulos son definidos normalmente antes del cuerpo principal. El orden en que se definen es 
+relevante en algunos lenguajes de programación, cuando los módulos se "usan" entre ellos. Lo más recomendable para 
+nombrar los módulos es que se utilicen verbos en infinitivo (finalizan en ar,er,ir), por ejemplo: calcular_montos, 
+mostrar_salidas, etc. A continuación, se aprecian una serie de módulos relacionados con un algoritmo Rutina Diaria 
+para Salir:
+
+SubProceso Vestir()
+Buscar Ropa
+Planchar Ropa
+Colocar Ropa
+FinSubProceso
+
+SubProceso Comer()
+Calentar Comida
+Servir Comida
+Consumir Comida
+FinSubProceso

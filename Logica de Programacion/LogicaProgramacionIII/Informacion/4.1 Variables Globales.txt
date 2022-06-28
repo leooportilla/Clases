@@ -1,0 +1,8 @@
+Son variables que se declaran afuera de los módulos y pueden ser usadas en cualquier módulo 
+del programa y/o en el cuerpo principal del programa. Una variable global ocupa espacio en 
+la memoria RAM durante la ejecución de todo el programa. El uso de variables globales no es 
+recomendado, debido a que puede hacer que los programas sean más difíciles de entender y se 
+sucedan ambigüedades. Este sería un ejemplo de definición de variables globales en pseudocódigo, 
+sin embargo, PSeInt no admite el uso de este tipo de variables:
+
+https://mega.nz/file/flkHzYBY#mGn11bNeryJZdIcniZ2Ov6PcmECaV4fuLhsHfo6b4n4

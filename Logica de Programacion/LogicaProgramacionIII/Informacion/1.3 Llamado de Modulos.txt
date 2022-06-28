@@ -1,0 +1,35 @@
+Definir los módulos es parte esencial de la modularidad, así como también lo es el "Llamado o Invocación a los 
+Módulos"; ello implica colocar una "instrucción particular" para indicar que se necesita que se ejecuten las 
+instrucciones que están contenidas dentro del módulo.
+
+Un módulo se llama o invoca colocando en una línea su nombre especificando los parámetros si los tuviere, esto se 
+considera una instrucción. Cabe destacar que si un módulo no es llamado, no se ejecuta.
+
+Los módulos pueden llamarse desde:
+° El cuerpo principal del algoritmo. El orden en que se crean los módulos es irrelevante.
+° Otros módulos del algoritmo. En algunos lenguajes de programación, el módulo que es llamado debe estar definido 
+  antes del módulo que lo llama.
+
+Para que un módulo se ejecute, se le debe llamar desde donde sea conveniente y se hace colocando el nombre del módulo
+seguido de los parámetros (si los tiene). A continuación, se verán varios aspectos de la modularidad ejemplificados 
+con el algoritmo modular de Rutina Diaria para salir. En la imagen se ejemplifica como llamar a los módulos (sin 
+parámetros) desde el cuerpo principal del programa:
+
+Proceso RutinaDiaria
+   //Cuerpo principal
+Vestir()
+Comer()
+FinProceso
+
+Aquí se ejemplifica como llamar un módulo carente de parámetros desde otro módulo. Nótese que la 1era acción del 
+módulo "comer" es el llamado a un módulo "calentarComidaMicroondas" que está definido antes de él.
+
+https://mega.nz/file/X0sjWD6I#UAMJ-iYlvaysH4w9RsTYRCGMbbh9tp-SrpDrj03UAuE
+
+Un módulo puede ser llamado a ejecutarse varias veces. Esto puede hacerse desde el cuerpo principal o desde otros 
+módulos (incluso en un mismo módulo puede llamarse varias veces a un módulo particular). A esto se le conoce como 
+Reusabilidad (su implementación se verá en detalle más adelante). Por lo anterior, no es necesario definir el módulo
+las veces que se necesite ejecutarlo. Es suficiente con definirlo una vez, y llamarlo tantas veces como sea 
+necesario.
+
+https://mega.nz/file/Gp9hhRYK#wT0EkDigCreaLZBas2Zrco4jpPzapVMt4abtVazRgFg

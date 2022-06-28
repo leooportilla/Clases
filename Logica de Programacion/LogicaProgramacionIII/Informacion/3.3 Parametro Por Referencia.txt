@@ -1,0 +1,19 @@
+Un parámetro POR REFERENCIA, también referido como "Parámetro de Salida", es aquel cuyo valor 
+es modificado dentro del módulo, y su nuevo valor debe "salir" para estar disponible a otro(s)
+módulo(s). La forma de indicar que un parámetro es de salida, varía de un lenguaje a otro. En 
+PseInt, para que un parámetro sea de salida se deben colocar las palabras reservadas "Por 
+Referencia" luego del identificador del parámetro.
+
+https://mega.nz/file/X0kyyAaZ#TEd9UnK1Kzn3fXk-g2P_mJAYOsi3y4VFVoCUDsJzWA0
+
+Uno de los usos más clásicos de estos parámetros es el módulo donde se captan las entradas, 
+debido a que es allí donde los parámetros tomarán el valor leído por el teclado, para que 
+finalizada la ejecución del módulo, los valores guardados en esos parámetros estén disponibles 
+a otros módulos.
+
+https://mega.nz/file/zgcRhBBS#0qXE7NsuuwiWd7bMP6sXH0I5rCceGLno0imB6IvPrWI
+
+En el llamado a los módulos, los parámetros por referencia SOLO deben ser variables, nunca valores 
+literales.
+
+https://mega.nz/file/H49XyJjC#T2M6GO061706J0wKgiZepa_9bHDxD2Ii66rZ2vKYs5Q

@@ -1,0 +1,33 @@
+Son variables que se declaran dentro de un módulo y solo pueden usarse en el módulo donde fueron 
+declaradas. El objetivo de una variable local es apartar la memoria necesaria para las variables 
+sólo en el momento en que se van a usar. El siguiente es un ejemplo de declaración de variables locales:
+
+Subproceso calcularSueldo(sueldoNuevo Por Referencia)
+
+		   definir bono, aumento como real  // variables locales
+
+		   bono = nroHijos*5
+		   aumento = sueldoBase * 0.1
+		   sueldoNuevo = sueldoBase + aumento + bono
+
+FinSubproceso
+
+Nótese que nroHijos y sueldoBase no son variables locales, por lo tanto se infiere que son 
+variables globales.
+
+Las variables "bono" y "aumento" son variables locales del módulo "calcularSueldo" y solo pueden 
+ser usadas dentro de ese módulo.
+Las variables locales son usadas normalmente, para hacer operaciones auxiliares previas a los 
+cálculos o determinaciones finales del módulo dentro del cual están definidas.
+
+IMPORTANTE:
+Para entenderlo de un modo práctico, si se va a usar una variable, pero ella no está definida como 
+parámetro, debe ser declarada como variable local del módulo que la utiliza.
+
+También debe tenerse en cuenta que, dos o más módulos pueden tener variables locales con el mismo 
+nombre sin que esto genere conflictos.
+
+Cuando una variable X es local en el módulo "mod1", significa que dicho módulo es el "propietario" de 
+dicha variable, y puede acceder a ella y modificarla, mientras se estén ejecutando instrucciones de 
+ese módulo. Si cualquier otro módulo del programa necesita conocer el valor de la variable X, es "mod1" 
+el que debe transferir el valor de X a través del paso de un parámetro por referencia.

@@ -1,0 +1,20 @@
+Un parámetro POR VALOR, también referido como "Parámetro de Entrada", es aquel cuyo valor, no 
+sufrirá ningún cambio dentro del módulo. Para que un parámetro sea tratado Por Valor, no es 
+necesario añadir nada en la definición (alguna palabra reservada o símbolo). Sin embargo, en 
+PseInt, si se desea se puede usar la combinación de palabras "por valor" al lado del parámetro.
+Al tener definido uno o varios parámetros formales en un módulo, por omisión, son tratados "por valor".
+
+https://mega.nz/file/ygcDQIKD#3c8K-I1_Ri3CuX3MPnJdROfTq8QzOlX7mw8RtgOXvdg
+
+En el ejemplo del módulo "EnviarMensaje", los parámetros "numero" y "mensaje" serían "Parámetros de 
+Entrada", porque ellos nunca serán modificados dentro del módulo . Los parámetros por valor son 
+usados frecuentemente en los módulos que muestran resultados, esto se ejemplifica en este módulo 
+para mostrar la información de facturación de una tienda que vende camisas:
+
+https://mega.nz/file/P083wRAT#Dq2TqzHjVMBVh_L4vyypRsReb9K938iFs_vdIrD-R6g
+
+Si un módulo tiene parámetros por valor en su definición, cuando se haga el llamado a éste, los 
+parámetros pueden ser valores literales o variables que ya contengan un valor (bien sea por 
+asignación o por lectura).
+
+https://mega.nz/file/v48GSJ7Q#nvxEmcmt2MCM-lJay0nPDtz9X7CiDQgr2VQChM7hZt4

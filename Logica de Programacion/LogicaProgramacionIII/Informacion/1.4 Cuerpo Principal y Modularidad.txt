@@ -1,0 +1,30 @@
+El código fuente de un programa básico se escribe en una sección denominada CUERPO PRINCIPAL del programa. En algunos
+lenguajes de programación se conoce como el "main".
+
+En la programación secuencial, todas las instrucciones de los programas se colocan en dicho bloque, lo que implica 
+que cuando un algoritmo tiene muchas líneas de código podría dificultarse entenderlo, mejorarlo y hacerle 
+correcciones.
+
+Cuando se inicia la ejecución de un programa, se ejecutan primeramente las instrucciones que están en esta sección.
+
+Ahora bien, cabe preguntarse... ¿Qué pasa con el control de ejecución cuando el programa es modular?, he aquí lo que 
+sucede:
+
+Al ejecutarse un programa, se ejecuta cada instrucción que esté en el cuerpo principal. En él puede haber 
+instrucciones que no impliquen el llamado a un módulo.
+
+Pero, cuando el cuerpo principal llama a un módulo, se pasa el control de ejecución del programa a ese módulo y se 
+ejecuta cada instrucción contenida en el mismo.
+
+Cuando se ejecuta la última instrucción del módulo, se devuelve el control de ejecución al cuerpo principal, para 
+que ejecute la siguiente instrucción.
+
+IMPORTANTE: Si el llamado a un módulo se origina en otro módulo, el control de ejecución se maneja entre ellos.
+Ahora bien, en la programación modular se busca que en el cuerpo principal se coloque la menor cantidad de 
+instrucciones posibles. De manera que, la mayoría de las instrucciones estén en los módulos.
+
+No existe una regla general sobre crear programas modulares, ya que se pueden crear primero los módulos y luego 
+colocar las instrucciones que estarán en el cuerpo principal o viceversa.
+
+En conclusión, un algoritmo o programa modular estaría constituido por uno o varios módulos y un único cuerpo 
+principal.

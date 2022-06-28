@@ -1,0 +1,39 @@
+Todo lo que existe en un módulo es inaccesible al resto de los módulos o al programa principal. Por esta razón, la 
+programación modular exige una comunicación entre el módulo llamador y el módulo llamado. Esta comunicación se 
+realiza a través de unas variables de enlace que se denominan parámetros.
+
+Un PARÁMETRO o ARGUMENTO es un dato que se envía o que es retornado por un módulo del programa.
+
+Un módulo puede:
+° No tener parámetros.
+° Tener un solo parámetro
+° Tener varios parámetros.
+
+La cantidad de parámetros del módulo dependerá del objetivo que cumpla el módulo. Para lograr la "Singularidad de 
+Propósito" es altamente probable que se necesiten datos provenientes de otros módulos.
+
+Por ejemplo, si se necesita crear un módulo para enviar mensajes de texto vía SMS, se definiría un módulo con el 
+nombre "EnviarMensaje", el cual necesitará recibir al menos 2 parámetros:
+
+° El número de teléfono al cual se va a enviar el mensaje
+° El mensaje a enviar
+
+Estos dos (2) datos pueden provenir de un módulo que le solicite éstos al usuario, o de un módulo que los lea de una 
+fuente de datos externa (ej.: base de datos).
+
+Además el módulo "EnviarMensaje" podría retornar un parámetro que indique si el mensaje fue enviado exitosamente o no.
+
+Esto reafirma que, los parámetros son variables cuyos valores son captados o determinados dentro de un módulo y son 
+retornados para ser usados por otros módulos.
+
+El uso de parámetros en la modularidad permite que la reusabilidad de código sea más provechosa, ya que se puede 
+usar el mismo código en diversas situaciones que son idénticas, donde lo único que cambia son los datos involucrados.
+
+En el caso del envío de mensajes, si se necesita enviar 100 mensajes, el procedimiento es el mismo, lo único que 
+cambiará serán los números de teléfono destino y el posiblemente el mensaje a enviar.
+
+
+Sin reusabilidad, para enviar todos los mensajes, se tendría que escribir el mismo código 100 veces, donde lo único 
+que cambiaría serían los dos (2) datos necesarios: número de teléfono y mensaje. Analizando este ejemplo es evidente 
+que, la modularidad implementando reusabilidad, permite minimizar la cantidad de líneas de código que conforman el 
+programa, lo cual redunda en ahorro de tiempo.

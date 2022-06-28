@@ -1,0 +1,17 @@
+Cuando un módulo tiene parámetros en su definición (Parámetros Formales), el llamado a ese módulo 
+también debe tener parámetros. En el llamado se deben colocar los parámetros que el módulo necesita. 
+A estos parámetros se les denomina PARÁMETROS ACTUALES. A diferencia de lo que pudiera requerirse 
+con los parámetros formales, en los actuales no se debe colocar el tipo de dato del parámetro. 
+Véase los siguientes ejemplos:
+
+LeerEntrada(Nombre, Edad)
+MostrarInfo(Nombre, Edad)
+Parametros Acutuales 
+
+Los parámetros actuales pueden ser variables o valores literales dependiendo del tratamiento que se 
+le dé a cada parámetro, lo cual se verá en el próximo capítulo. En el caso de que el valor literal 
+sea alfanumérico, se debe hacer uso de las comillas dobles o comillas simples. Véanse los siguientes 
+ejemplos:
+
+https://mega.nz/file/T4UwUAgI#nUBSz7Dn0UMqbYvosl0VwrrbP5ZjDhyu5q5NuOWR4xY
+

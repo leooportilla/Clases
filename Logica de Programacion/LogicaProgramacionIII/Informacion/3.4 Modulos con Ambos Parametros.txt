@@ -1,0 +1,14 @@
+Un módulo puede tener sólo parámetros "Por Referencia", o sólo parámetros "Por Valor" o ambos.
+
+https://mega.nz/file/TotUBSTZ#IEHlcJun2skKxI9yZu0qz2LWyizVTprI2_4Gns8PANY
+
+Los módulos de proceso, en la mayoría de casos, deben tener parámetros de entrada (por valor) 
+y salida (por referencia), ya que deben recibir datos o información, procesarla y "enviar" 
+información resultante a otro(s) módulo(s).
+
+No es necesario que los parámetros estén en un orden especial, es decir, no tienen que estar 
+primero los parámetros "Por Referencia" y luego los que son "Por Valor" o viceversa. Incluso 
+pudieran estar intercalados.
+
+Sin embargo, es una práctica común, indicar primero los parámetros Por Valor y luego los 
+parámetros Por Referencia.
